@@ -6,10 +6,10 @@ This web application was build for the CMPT 375 (Web Applications) class of spri
 (A brief description of your project goes here. You should also change the "Web Apps client project" at the top to the name of your project.)
 
 ### Developers
-- Name1 (role)
-- Name2 (role)
-- Name3 (role)
-- Name4 (role)
+- Alicia (Front-End Developer)
+- Shreeya (Back-End Developer)
+- Taeden (Back-End Developer)
+- Will (Front-End Developer)
 
 ### Designers
 - Name1 (role)
