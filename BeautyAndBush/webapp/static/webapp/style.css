@@ -1,0 +1,68 @@
+:root {
+    --forest_green: #123D14;
+    --emerald_green: #1D4D45;
+    --creamy_forest: #3a5a40;
+    --gold: #D4AF37;
+    --old_gold: #CEC03D;
+    --vanilla: #EEE0B0;
+    --ivory: #FDFBEB;
+    --stark_white: #FDFDFD;
+    --night: #070E07;
+    --black: #000000;
+}
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+}
+
+div {
+    width: 5em;
+    height: 5em;
+    color: white;
+    text-align: center;
+}
+
+.swatches-1 {
+    background-color: var(--creamy_forest);
+}
+
+.swatches-2 {
+    background-color: var(--forest_green);
+}
+
+.swatches-3 {
+    background-color: var(--emerald_green);
+}
+
+.swatches-4 {
+    background-color: var(--gold);
+}
+
+.swatches-5 {
+    background-color: var(--old_gold);
+}
+
+.swatches-6 {
+    background-color: var(--vanilla);
+}
+
+.swatches-7 {
+    background-color: var(--ivory);
+    color: black;
+}
+
+.swatches-8 {
+    background-color: var(--stark_white);
+    color: black;
+}
+
+.swatches-9 {
+    background-color: var(--night);
+
+}
+
+.swatches-10 {
+    background-color: var(--black);
+}
