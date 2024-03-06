@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b533539-3f7d-42f2-a400-1e01dc998909" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/moodboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/BeautyAndBush/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/BeautyAndBush/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/templates/webapp/static/webapp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/client-project-beauty-and-bush.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/client-project-beauty-and-bush.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,8 @@
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "taeden",
     "last_opened_file_path": "C:/Users/18018/PycharmProjects/client-project-beauty-and-bush/BeautyAndBush",
     "node.js.detected.package.eslint": "true",
@@ -88,6 +89,7 @@
       <workItem from="1708375379268" duration="381000" />
       <workItem from="1708542335044" duration="600000" />
       <workItem from="1708975342381" duration="2220000" />
+      <workItem from="1709752507589" duration="740000" />
     </task>
     <servers />
   </component>
