@@ -39,3 +39,15 @@ def my_account(request):
 
 def history(request):
     return render(request, 'webapp/history.html')
+
+
+def faq(request):
+    return render(request, 'webapp/faq.html')
+
+
+def book_now_slc(request):
+    return render(request, 'webapp/faq.html')
+
+
+def book_now_st_george(request):
+    return render(request, 'webapp/faq.html')
