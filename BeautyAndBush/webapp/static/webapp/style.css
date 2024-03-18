@@ -14,96 +14,45 @@
 
 body {
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 2em;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-div {
-    width: 5em;
-    height: 5em;
-    color: white;
-    text-align: center;
+nav {
+    background-color: #ffffff; /* Background color of the navigation bar */
+    padding: 10px 0;
 }
 
-.swatches-1 {
-    background-color: var(--creamy_forest);
+nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center align the list items */
 }
 
-.swatches-2 {
-    background-color: var(--forest_green);
+nav li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between buttons */
 }
 
-.swatches-3 {
-    background-color: var(--emerald_green);
+
+nav li a {
+    color: #013C30; /* Text color of the buttons */
+    text-decoration: none;
+    padding: 10px 100px; /* Adjust padding as needed */
+    border: 1px solid #000000; /* Border around buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    font-family: 'Goldenbook', serif;
+    font-size: 15px;
 }
 
-.swatches-4 {
-    background-color: var(--gold);
+nav li a:hover {
+    background-color: #555; /* Background color on hover */
 }
 
-.swatches-5 {
-    background-color: var(--old_gold);
-}
-
-.swatches-6 {
-    background-color: var(--vanilla);
-}
-
-.swatches-7 {
-    background-color: var(--ivory);
-    color: black;
-}
-
-.swatches-8 {
-    background-color: var(--stark_white);
-    color: black;
-}
-
-.swatches-9 {
-    background-color: var(--night);
-
-}
-
-.swatches-10 {
-    background-color: var(--black);
-}
-body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav {
-            background-color: #ffffff; /* Background color of the navigation bar */
-            padding: 10px 0; /* Adjust padding as needed */
-        }
-
-        nav ol {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            text-align: center; /* Center align the list items */
-        }
-
-        nav li {
-            display: inline-block;
-            margin-right: 20px; /* Adjust spacing between buttons */
-        }
-
-
-        nav li a {
-            color: #013C30; /* Text color of the buttons */
-            text-decoration: none;
-            padding: 10px 105px; /* Adjust padding as needed */
-            border: 1px solid #000000; /* Border around buttons */
-            border-radius: 5px; /* Rounded corners for buttons */
-            font-family: 'Goldenbook', serif;
-            font-size: 15px;
-        }
-
-        nav li a:hover {
-            background-color: #555; /* Background color on hover */
-        }
 footer {
     background-color: #333;
     color: #fff;
@@ -133,12 +82,13 @@ footer ul li a:hover {
     text-decoration: underline;
 }
 .container {
-            display: flex;
-            justify-content: center; /* Align items horizontally to the center */
-            align-items: center; /* Align items vertically to the center */
-            height: 100vh; /* Set container height to full viewport height */
-            text-align: center;
+    display: flex;
+    justify-content: center; /* Align items horizontally to the center */
+    align-items: center; /* Align items vertically to the center */
+    height: 70vh; /* Set container height to the specified viewport height */
+    text-align: center;
 }
+
 .giant-title {
     font-size: 72px;
     text-align: center;
