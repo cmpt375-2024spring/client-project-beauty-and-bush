@@ -137,7 +137,9 @@ footer ul li a:hover {
             justify-content: center; /* Align items horizontally to the center */
             align-items: center; /* Align items vertically to the center */
             height: 100vh; /* Set container height to full viewport height */
+            text-align: center;
 }
 .giant-title {
     font-size: 72px;
+    text-align: center;
 }
