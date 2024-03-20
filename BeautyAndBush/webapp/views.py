@@ -46,8 +46,8 @@ def faq(request):
 
 
 def book_now_slc(request):
-    return render(request, 'webapp/book_now_slc.html')
+    return render(request, 'webapp/book-now-slc.html')
 
 
 def book_now_st_george(request):
-    return render(request, 'webapp/book_now_st_george.html')
+    return render(request, 'webapp/book-now-st-george.html')
