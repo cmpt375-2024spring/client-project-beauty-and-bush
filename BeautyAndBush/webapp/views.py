@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+from django.views import generic
 
 def MoodBoardView(request):
     return render(request, 'webapp/moodboard.html')
@@ -29,12 +29,12 @@ def login(request):
     return render(request, 'webapp/login.html')
 
 
-def login(request):
-    return render(request, 'webapp/login.html')
-
-
 def my_account(request):
     return render(request, 'webapp/my_account.html')
+
+
+class AccountView(generic.DetailView):
+    pass
 
 
 def history(request):
