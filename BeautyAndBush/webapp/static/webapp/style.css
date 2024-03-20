@@ -1,69 +1,110 @@
+/* Main colors as CSS Variables */
 :root {
-    --forest_green: #123D14;
-    --emerald_green: #1D4D45;
-    --creamy_forest: #3a5a40;
-    --gold: #D4AF37;
-    --old_gold: #CEC03D;
-    --vanilla: #EEE0B0;
-    --ivory: #FDFBEB;
-    --stark_white: #FDFDFD;
-    --night: #070E07;
-    --black: #000000;
+   --forest_green: #123D14;
+   --emerald_green: #1D4D45;
+   --creamy_forest: #3a5a40;
+   --gold: #D4AF37;
+   --old_gold: #CEC03D;
+   --vanilla: #EEE0B0;
+   --ivory: #FDFBEB;
+   --stark_white: #FDFDFD;
+   --night: #070E07;
+   --black: #000000;
 }
 
 
 body {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 2em;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
 }
 
-div {
-    width: 5em;
-    height: 5em;
-    color: white;
-    text-align: center;
+
+nav {
+   background-color: #ffffff; /* Background color of the navigation bar */
+   padding: 10px 0;
 }
 
-.swatches-1 {
-    background-color: var(--creamy_forest);
+
+nav ol {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   text-align: center; /* Center align the list items */
 }
 
-.swatches-2 {
-    background-color: var(--forest_green);
+
+nav li {
+   display: inline-block;
+   margin-right: 20px; /* Adjust spacing between buttons */
 }
 
-.swatches-3 {
-    background-color: var(--emerald_green);
+
+
+
+nav li a {
+   color: #013C30; /* Text color of the buttons */
+   text-decoration: none;
+   padding: 10px 100px; /* Adjust padding as needed */
+   border: 1px solid #000000; /* Border around buttons */
+   border-radius: 5px; /* Rounded corners for buttons */
+   font-family: 'Goldenbook', serif;
+   font-size: 15px;
 }
 
-.swatches-4 {
-    background-color: var(--gold);
+
+nav li a:hover {
+   background-color: #555; /* Background color on hover */
 }
 
-.swatches-5 {
-    background-color: var(--old_gold);
+
+footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 20px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
 }
 
-.swatches-6 {
-    background-color: var(--vanilla);
+
+footer ul {
+   list-style-type: none;
+   padding: 0;
 }
 
-.swatches-7 {
-    background-color: var(--ivory);
-    color: black;
+
+footer ul li {
+   display: inline;
+   margin-right: 10px;
 }
 
-.swatches-8 {
-    background-color: var(--stark_white);
-    color: black;
+
+footer ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+footer ul li a:hover {
+   text-decoration: underline;
+}
+.container {
+   display: flex;
+   justify-content: center; /* Align items horizontally to the center */
+   align-items: center; /* Align items vertically to the center */
+   height: 70vh; /* Set container height to the specified viewport height */
+   text-align: center;
 }
 
-.swatches-9 {
-    background-color: var(--night);
 
+.giant-title {
+   font-size: 72px;
+   text-align: center;
 }
 
-.swatches-10 {
-    background-color: var(--black);
-}
+
+
