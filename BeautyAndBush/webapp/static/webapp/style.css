@@ -88,6 +88,10 @@ footer ul li a:hover {
     height: 70vh; /* Set container height to the specified viewport height */
     text-align: center;
 }
+.container img {
+    height: 300px;
+    width: auto;
+}
 
 .giant-title {
     font-size: 72px;
