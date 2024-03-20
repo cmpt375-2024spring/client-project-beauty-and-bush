@@ -29,10 +29,6 @@ def login(request):
     return render(request, 'webapp/login.html')
 
 
-def login(request):
-    return render(request, 'webapp/login.html')
-
-
 def my_account(request):
     return render(request, 'webapp/my_account.html')
 
