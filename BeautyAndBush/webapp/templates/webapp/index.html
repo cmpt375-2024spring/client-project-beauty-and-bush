@@ -16,14 +16,32 @@
         <li><a href="{% url 'services' %}">Services</a></li>
         <li><a href="{% url 'memberships' %}">Memberships</a></li>
         <li><a href="{% url 'slc' %}">Book Now</a></li>
+        <li><a href="{% url 'faq' %}">FAQ</a></li>
     </ul>
     </nav>
-    
-<footer>
-        <ul>
-            <li><a href="https://example.com/facebook">Facebook</a></li>
-            <li><a href="https://example.com/twitter">Twitter</a></li>
-        </ul>
-</footer>
+<div class="container">
+    <header>
+        <img src="{% static 'webapp/images/index/logo.png' %}" alt="Diamond Icon" class="logo-icon">
+    </header>
+
+    <section class="mission">
+        <h2>Our Mission</h2>
+        <p>Empire aims to offer a luxurious full-body waxing experience at an affordable price.</p>
+        <p>We provide quality hair removal for every body while dedicating a portion of our memberships to support the causes we care about.</p>
+        <p>Get Waxed. Save Money. Give Back.</p>
+        <div class="book-now">
+            <button>BOOK NOW</button>
+        </div>
+    </section>
+
+    <section class="founder">
+        <h2>MEET THE FOUNDER</h2>
+        <h3>Jenna White</h3>
+        <img src="{% static 'webapp/images/index/jenna.png' %}" alt="Jenna White" class="founder-photo">
+        <p>Jenna is passionate about creating opportunities and helping people realize the potential within themselves.</p>
+        <p>As a survivor-turned-advocate of domestic violence she believes in the empowerment of self and others and actively seeks out ways to support her community.</p>
+        <p>Jenna's favorite services are brows and Brazilians. She’s a mother of 3 marvelous, vivacious children.</p>
+    </section>
+</div>
 </body>
 </html>

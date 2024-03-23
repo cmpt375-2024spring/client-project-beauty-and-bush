@@ -1,14 +1,5 @@
 from django.shortcuts import render
 
-
-
-
-def MoodBoardView(request):
-   return render(request, 'webapp/moodboard.html')
-
-
-
-
 def index(request):
    return render(request, 'webapp/index.html')
 

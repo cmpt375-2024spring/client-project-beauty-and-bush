@@ -1,0 +1,41 @@
+ body {
+  font-family: 'Arial', sans-serif; /* Replace with the specific font used */
+  margin: 0;
+  padding: 0;
+  background: #ffffff; /* Replace with the exact background color if needed */
+  font-size: 16px; /* Base font size */
+}
+
+.faq-container {
+  max-width: 600px; /* Adjust as needed for your design */
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.faq-container h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ccc; /* Add a border color as per design */
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.question, .answer {
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.answer {
+  margin-bottom: 20px; /* Space after the answer */
+}
+
+/* Additional styles for responsiveness and aesthetics may be necessary */

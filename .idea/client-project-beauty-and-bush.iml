@@ -8,7 +8,7 @@
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
     <option name="TEMPLATE_FOLDERS">
       <list>
-        <option value="$MODULE_DIR$/BeautyAndBush/templates" />
+        <option value="$MODULE_DIR$/BeautyAndBush/webapp/templates" />
       </list>
     </option>
   </component>

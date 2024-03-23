@@ -7,7 +7,6 @@ from django.urls import path
 
 
 urlpatterns = [
-   path('moodboard/', views.MoodBoardView, name='moodboard'),
    path('', views.index, name='index'),
    path('about/', views.about, name='about'),
    path('services/', views.services, name='services'),
