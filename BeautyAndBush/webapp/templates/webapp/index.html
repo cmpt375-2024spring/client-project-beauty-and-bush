@@ -6,17 +6,22 @@
     <title>Home | Empire Body Waxing</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'webapp/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <nav>
     <ul>
-        <li><a href="{% url 'index' %}">Home</a></li>
-        <li><a href="{% url 'about' %}">About</a></li>
-        <li><a href="{% url 'services' %}">Services</a></li>
-        <li><a href="{% url 'memberships' %}">Memberships</a></li>
-        <li><a href="{% url 'slc' %}">Book Now</a></li>
+        <li><a href="{% url 'index' %}">HOME</a></li>
+        <li><a href="{% url 'st_george' %}">ST. GEORGE HOME</a></li>
+        <li><a href="{% url 'about' %}">ABOUT</a></li>
         <li><a href="{% url 'faq' %}">FAQ</a></li>
+        <li><a href="{% url 'services' %}">SERVICES</a></li>
+        <li><a href="{% url 'memberships' %}">MEMBERSHIPS</a></li>
+        <li><a href="{% url 'contact_us' %}">CONTACT US</a></li>
+        <li><a href="{% url 'login' %}">LOGIN</a></li>
     </ul>
     </nav>
 <div class="container">
@@ -43,5 +48,6 @@
         <p>Jenna's favorite services are brows and Brazilians. She’s a mother of 3 marvelous, vivacious children.</p>
     </section>
 </div>
+
 </body>
 </html>

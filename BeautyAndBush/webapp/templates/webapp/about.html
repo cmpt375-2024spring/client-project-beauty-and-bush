@@ -6,52 +6,54 @@
 <title>About Us</title>
 {% load static %}
 <link rel="stylesheet" href="{% static 'webapp/images' %}">
-<link rel="stylesheet" href="{% static 'webapp/aboutstyle.css' %}">
+<link rel="stylesheet" href="{% static 'webapp/about_style.css' %}">
 <link rel="stylesheet" href="{% static 'webapp/style.css' %}">
 </head>
 <body>
- <nav>
-    <ul>
-        <li><a href="{% url 'index' %}">Home</a></li>
-        <li><a href="{% url 'about' %}">About</a></li>
-        <li><a href="{% url 'services' %}">Services</a></li>
-        <li><a href="{% url 'memberships' %}">Memberships</a></li>
-        <li><a href="{% url 'slc' %}">Book Now</a></li>
-    </ul>
+    <nav>
+        <ul>
+            <li><a href="{% url 'index' %}">HOME</a></li>
+            <li><a href="{% url 'st_george' %}">ST. GEORGE HOME</a></li>
+            <li><a href="{% url 'about' %}">ABOUT</a></li>
+            <li><a href="{% url 'faq' %}">FAQ</a></li>
+            <li><a href="{% url 'services' %}">SERVICES</a></li>
+            <li><a href="{% url 'memberships' %}">MEMBERSHIPS</a></li>
+            <li><a href="{% url 'contact_us' %}">CONTACT US</a></li>
+            <li><a href="{% url 'login' %}">LOGIN</a></li>
+        </ul>
     </nav>
 
-<div class="container">
-    <h1>About Us</h1>
-    
-    <p>Empire Body Waxing is a membership-based waxing salon. While we do offer a-la-carte services, our memberships will give you the best value. And bonus, every membership gives back to our local communities—don't you love when your dollar goes further?</p>
-    
-    <p>Each team member is trained in-house on our proprietary waxing methods, so you can trust you'll get the same results no matter whom you book with. Between our unmatched techniques and the most gentle wax we could find, we are here to make sure you stay smooth & confident.</p>
-    
-    <div class="story">
-        <h2>Our Story</h2>
-        <p>At Empire Body Waxing, we empower people to live big and live well by engendering confidence and connecting communities.</p>
-        <p>Empire Body Waxing was founded in 2020 by Avery Brush and Jenna Whitey. Both women had been in the waxing industry for years, but they had a vision for a company that did more than just waxing. Avery and Jenna wanted to grow people and give back to their communities in Salt Lake City and St. George, Utah.</p>
-    </div>
+    <div class="container">
+        <h1>About Us</h1>
 
-    <div class="empowerment-section">
-        <h3>#EmpireEmpowers</h3>
-        <p>Each year, Empire Body Waxing chooses causes to support that we find important as a way to connect with the communities that continue to raise us.</p>
-        
-        <p>If you appreciate your dollar going further, we'd love to have you become a part of our empire.</p>
-        
-        <div class="recipients">
-            <p>Recipients (include but aren't limited to):</p>
-            <p>The Utah Coalition against sexual assault</p>
-            <p>The Utah Association of Family Support Centers</p>
+        <p>Empire Body Waxing is a membership-based waxing salon. While we do offer a-la-carte services, our memberships will give you the best value. And bonus, every membership gives back to our local communities—don't you love when your dollar goes further?</p>
+
+        <p>Each team member is trained in-house on our proprietary waxing methods, so you can trust you'll get the same results no matter whom you book with. Between our unmatched techniques and the most gentle wax we could find, we are here to make sure you stay smooth & confident.</p>
+
+        <div class="story">
+            <h2>Our Story</h2>
+            <p>At Empire Body Waxing, we empower people to live big and live well by engendering confidence and connecting communities.</p>
+            <p>Empire Body Waxing was founded in 2020 by Avery Brush and Jenna Whitey. Both women had been in the waxing industry for years, but they had a vision for a company that did more than just waxing. Avery and Jenna wanted to grow people and give back to their communities in Salt Lake City and St. George, Utah.</p>
+        </div>
+
+        <div class="empowerment-section">
+            <h3>#EmpireEmpowers</h3>
+            <p>Each year, Empire Body Waxing chooses causes to support that we find important as a way to connect with the communities that continue to raise us.</p>
+
+            <p>If you appreciate your dollar going further, we'd love to have you become a part of our empire.</p>
+
+            <div class="recipients">
+                <p>Recipients (include but aren't limited to):</p>
+                <p>The Utah Coalition against sexual assault</p>
+                <p>The Utah Association of Family Support Centers</p>
+            </div>
+        </div>
+
+        <div class="badges">
+            <img src="{% static 'webapp/images/about/badge.png' %}" alt="Finalist 2021 Badge" class="badge">
+            <img src="{% static 'webapp/images/about/wbc.png' %}" alt="Netstripe Certified Badge" class="badge">
+            <img src="{% static 'webapp/images/about/gs.png' %}" alt="10,000 Small Businesses Alumni Badge" class="badge">
         </div>
     </div>
-
-    <div class="badges">
-        <img src="{% static 'webapp/images/about/badge.png' %}" alt="Finalist 2021 Badge" class="badge">
-        <img src="{% static 'webapp/images/about/wbc.png' %}" alt="Netstripe Certified Badge" class="badge">
-        <img src="{% static 'webapp/images/about/gs.png' %}" alt="10,000 Small Businesses Alumni Badge" class="badge">
-    </div>
-</div>
-
 </body>
 </html>

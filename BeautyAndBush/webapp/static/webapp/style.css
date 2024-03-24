@@ -43,22 +43,22 @@ nav li {
 }
 
 
-
-
 nav li a {
-   color: #013C30; /* Text color of the buttons */
-   text-decoration: none;
-   padding: 10px 100px; /* Adjust padding as needed */
-   border: 1px solid #000000; /* Border around buttons */
-   border-radius: 5px; /* Rounded corners for buttons */
-   font-family: 'Goldenbook', serif;
-   font-size: 15px;
+    color: #013C30; /* Text color of the buttons */
+    text-decoration: none;
+    padding: 10px 40px; /* Adjust padding as needed */
+    border: 1px solid #ffffff; /* Border around buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    font-family: 'League Spartan', serif;
+    font-size: 15px;
 }
 
 
 nav li a:hover {
    background-color: #555; /* Background color on hover */
 }
+
+
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
@@ -133,7 +133,4 @@ p {
     color: #333; /* Adjust as needed */
     margin-bottom: 10px; /* Adjust as needed */
 }
-
-
-
 
