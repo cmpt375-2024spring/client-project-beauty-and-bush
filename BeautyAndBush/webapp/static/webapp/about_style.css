@@ -1,9 +1,9 @@
  body {
-        font-family: 'Arial', sans-serif;
-        margin: 0;
-        padding: 40px;
-        background-color: #fff;
-    }
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #fff;
+ }
     .container {
         max-width: 800px;
         margin: auto;
@@ -12,7 +12,7 @@
         text-align: center;
     }
     h1, h2, h3 {
-        color: #333;
+        color: #070E07;
     }
     h1 {
         font-size: 60px;
@@ -26,7 +26,7 @@
         margin-bottom: 20px;
     }
     p {
-        color: #666;
+        color: #000;
         line-height: 1.6;
         width: 40em;
     }

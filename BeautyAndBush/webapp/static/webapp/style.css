@@ -22,10 +22,11 @@ body {
    padding: 0;
 }
 
-
+/* Navigation Bar */
 nav {
-   background-color: #ffffff; /* Background color of the navigation bar */
-   padding: 10px 0;
+    background-color: #ffffff; /* Background color of the navigation bar */
+    padding: 10px 0;
+    text-align: center;
 }
 
 
@@ -59,14 +60,16 @@ nav li a:hover {
 }
 
 
-body, h1, h2, h3, p {
+/* Index Content */
+
+h1, h2, h3, p {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif; /* Replace with the correct font-family */
 }
 
 .container {
-    max-width: 600px; /* Adjust the max-width to fit the design */
+    max-width: 90%;
     margin: auto;
     padding: 20px;
     text-align: center;
@@ -90,47 +93,87 @@ h1 {
 }
 
 .mission {
-    margin-bottom: 50px; /* Adjust as needed */
+    margin: 5em 0em 7em; /* Adjust as needed */
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.mission-div {
+    width: 50%;
+}
+
+.image {
+    width: 50%;
+}
+
+.mission img {
+    width: 70%;
+    height: auto;
+    margin-left: 50px;
 }
 
 h2 {
-    font-size: 36px; /* Adjust as needed */
-    margin-bottom: 20px;
+    font-size: 48px; /* Adjust as needed */
+    margin-bottom: 40px;
+}
+
+.book-now {
+    margin-top: 18em;
+}
+
+.book-now h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
 .book-now button {
-    background-color: #000; /* Change to match the design */
-    color: #fff; /* Change to match the design */
+    background-color: #026451;
     border: none;
-    padding: 15px 30px;
+    padding: 15px 70px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 10px;
+}
+
+.book-now button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
 }
 
 .book-now button:hover {
-    background-color: #333; /* Darker background on hover */
+    background-color: #013C30; /* A little darker background on hover */
 }
 
 .founder {
+    margin: auto;
     margin-bottom: 50px; /* Adjust as needed */
+    width: 55%;
+}
+
+.founder h2 {
+    margin-bottom: 0px;
 }
 
 h3 {
-    font-size: 24px; /* Adjust as needed */
-    margin: 20px 0;
+    font-size: 28px; /* Adjust as needed */
+    margin: 5px 0 15px;
+    color: #013C30;
 }
 
 .founder-photo {
     max-width: 200px; /* Adjust based on actual size of founder's photo */
     height: auto;
-
     margin-bottom: 20px;
 }
 
 p {
-    font-size: 16px; /* Adjust as needed */
+    font-size: 22px; /* Adjust as needed */
     line-height: 1.5; /* Adjust as needed */
-    color: #333; /* Adjust as needed */
+    color: #000; /* Adjust as needed */
     margin-bottom: 10px; /* Adjust as needed */
+    text-align: left;
+
 }
 

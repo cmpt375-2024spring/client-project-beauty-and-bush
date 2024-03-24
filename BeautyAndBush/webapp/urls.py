@@ -12,6 +12,5 @@ urlpatterns = [
    path('my-account/', views.my_account, name='my-account'),
    path('history/', views.history, name='history'),
    path('faq/', views.faq, name='faq'),
-   path('book-now-slc/', views.book_now_slc, name='slc'),
-   path('book-now-st-george/', views.book_now_st_george, name='st_george')
+   path('st-george-home/', views.st_george_home, name='st_george')
 ]
