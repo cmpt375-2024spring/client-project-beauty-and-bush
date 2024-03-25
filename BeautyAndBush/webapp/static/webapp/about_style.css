@@ -1,0 +1,62 @@
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #fff;
+ }
+    .container {
+        max-width: 800px;
+        margin: auto;
+        background-color: #fff;
+        padding: 40px;
+        text-align: center;
+    }
+    h1, h2, h3 {
+        color: #070E07;
+    }
+    h1 {
+        font-size: 60px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    h2 {
+        font-size: 60px;
+        text-align:center;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    p {
+        color: #000;
+        line-height: 1.6;
+        width: 40em;
+    }
+    .story {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .empowerment-section {
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 40px;
+    }
+    .empowerment-section h3 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .recipients {
+        margin-top: 20px;
+    }
+    .footer {
+        text-align: center;
+        margin-top: 60px;
+    }
+    .badges {
+        display: flex;
+        justify-content: center; /* Aligns items to the start of the container */
+        align-items: center; /* Centers items vertically */
+        gap: 10px; /* Adjust the space between the badges */
+    }
+    .badge {
+        max-width: 150px; /* Adjust the width as necessary */
+        height: auto; /* This ensures that the aspect ratio of the images is maintained */
+    }

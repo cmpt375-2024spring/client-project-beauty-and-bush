@@ -1,41 +1,46 @@
 /* Main colors as CSS Variables */
 :root {
-    --forest_green: #123D14;
-    --emerald_green: #1D4D45;
-    --creamy_forest: #3a5a40;
-    --gold: #D4AF37;
-    --old_gold: #CEC03D;
-    --vanilla: #EEE0B0;
-    --ivory: #FDFBEB;
-    --stark_white: #FDFDFD;
-    --night: #070E07;
-    --black: #000000;
+   --forest_green: #123D14;
+   --emerald_green: #1D4D45;
+   --creamy_forest: #3a5a40;
+   --gold: #D4AF37;
+   --old_gold: #CEC03D;
+   --vanilla: #EEE0B0;
+   --ivory: #FDFBEB;
+   --stark_white: #FDFDFD;
+   --night: #070E07;
+   --black: #000000;
 }
+
 
 body {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
 }
 
+/* Navigation Bar */
 nav {
     background-color: #ffffff; /* Background color of the navigation bar */
     padding: 10px 0;
+    text-align: center;
 }
+
 
 nav ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center; /* Center align the list items */
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   text-align: center; /* Center align the list items */
 }
 
+
 nav li {
-    display: inline-block;
-    margin-right: 20px; /* Adjust spacing between buttons */
+   display: inline-block;
+   margin-right: 20px; /* Adjust spacing between buttons */
 }
 
 
@@ -49,43 +54,24 @@ nav li a {
     font-size: 15px;
 }
 
+
 nav li a:hover {
-    background-color: #555; /* Background color on hover */
+   background-color: #555; /* Background color on hover */
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
 
-footer ul {
-    list-style-type: none;
+/* Index Content */
+
+h1, h2, h3, p {
+    margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif; /* Replace with the correct font-family */
 }
 
-footer ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-footer ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-footer ul li a:hover {
-    text-decoration: underline;
-}
 .container {
-    display: flex;
-    justify-content: center; /* Align items horizontally to the center */
-    align-items: center; /* Align items vertically to the center */
-    height: 70vh; /* Set container height to the specified viewport height */
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
     text-align: center;
 }
 .container img {
@@ -93,7 +79,105 @@ footer ul li a:hover {
     width: auto;
 }
 
-.giant-title {
-    font-size: 72px;
-    text-align: center;
+header {
+    margin-bottom: 50px; /* Adjust as needed */
 }
+
+.logo-icon {
+    max-width: 700px; /* Adjust based on actual size of the diamond icon */
+    height: auto;
+    display: flex;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 48px; /* Adjust as needed */
+    text-transform: uppercase;
+    letter-spacing: 5px; /* Adjust as needed */
+}
+
+.mission {
+    margin: 5em 0em 7em; /* Adjust as needed */
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.mission-div {
+    width: 50%;
+}
+
+.image {
+    width: 50%;
+}
+
+.mission img {
+    width: 70%;
+    height: auto;
+    margin-left: 50px;
+}
+
+h2 {
+    font-size: 48px; /* Adjust as needed */
+    margin-bottom: 40px;
+}
+
+.book-now {
+    margin-top: 18em;
+}
+
+.book-now h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.book-now button {
+    background-color: #026451;
+    border: none;
+    padding: 15px 70px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.book-now button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.book-now button:hover {
+    background-color: #013C30; /* A little darker background on hover */
+}
+
+.founder {
+    margin: auto;
+    margin-bottom: 50px; /* Adjust as needed */
+    width: 55%;
+}
+
+.founder h2 {
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 28px; /* Adjust as needed */
+    margin: 5px 0 15px;
+    color: #013C30;
+}
+
+.founder-photo {
+    max-width: 200px; /* Adjust based on actual size of founder's photo */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 22px; /* Adjust as needed */
+    line-height: 1.5; /* Adjust as needed */
+    color: #000; /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
+    text-align: left;
+
+}
+

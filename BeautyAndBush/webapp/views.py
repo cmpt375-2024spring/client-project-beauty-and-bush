@@ -1,9 +1,6 @@
 from django.shortcuts import render
 from django.views import generic
 
-def MoodBoardView(request):
-    return render(request, 'webapp/moodboard.html')
-
 
 def index(request):
     return render(request, 'webapp/index.html')
@@ -45,11 +42,6 @@ def faq(request):
     return render(request, 'webapp/faq.html')
 
 
-def book_now_slc(request):
-
-    return render(request, 'webapp/book_now_slc.html')
-
-
-def book_now_st_george(request):
-    return render(request, 'webapp/book_now_st_george.html')
+def st_george_home(request):
+    return render(request, 'webapp/st_george_home.html')
 
