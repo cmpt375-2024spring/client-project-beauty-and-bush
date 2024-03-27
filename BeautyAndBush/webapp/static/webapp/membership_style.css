@@ -1,0 +1,24 @@
+ body {
+  font-family: 'Arial', sans-serif; /* Replace with the specific font used */
+  margin: 0;
+  padding: 0;
+  background: #ffffff; /* Replace with the exact background color if needed */
+  font-size: 16px; /* Base font size */
+}
+
+.membership-container {
+  max-width: 600px; /* Adjust as needed for your design */
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+.getwaxed-container {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.membership-info {
+  font-size: 400em;
+  text-align: center;
+  margin-bottom: 20px;
+}

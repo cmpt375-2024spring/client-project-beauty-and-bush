@@ -3,8 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Memberships | Empire Body Waxing</title>
+     {% load static %}
+   <link rel="stylesheet" href="{% static 'webapp/images' %}">
+    <link rel="stylesheet" href="{% static 'webapp/style.css' %}">
+    <link rel="stylesheet" href="{% static 'webapp/membership_style.css' %}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p>Memberships Page</p>
+    <nav>
+        <ul>
+            <li><a href="{% url 'index' %}">HOME</a></li>
+            <li><a href="{% url 'st_george' %}">ST. GEORGE HOME</a></li>
+            <li><a href="{% url 'about' %}">ABOUT</a></li>
+            <li><a href="{% url 'faq' %}">FAQ</a></li>
+            <li><a href="{% url 'services' %}">SERVICES</a></li>
+            <li><a href="{% url 'memberships' %}">MEMBERSHIPS</a></li>
+            <li><a href="{% url 'contact_us' %}">CONTACT US</a></li>
+            <li><a href="{% url 'login' %}">LOGIN</a></li>
+        </ul>
+    </nav>
 </body>
+<div class="membership-container">
+    <h1>Memberships</h1>
+</div>
+<div class = "getwaxed-container">
+    Get Waxed. Save Money. Give Back.
+</div>
+<div class="membership-info">
+        <p>Memberships get you the most bang for your buck.</p>
+        <p>Locking in a low price in exchange for monthly auto-pay, you'll also receive:</p>
+        <ul>
+            <li>10% off all other products & services</li>
+            <li>Priority booking</li>
+            <li>Benefits roll over for up to 90 days and can be used on other services</li>
+        </ul>
+        <p>As a member, you also help support our #Empireempowers initiative where we donate to the local causes that are important to us.</p>
+    </div>
 </html>
