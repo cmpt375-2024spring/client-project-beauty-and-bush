@@ -1,3 +1,41 @@
+
+nav {
+    background-color: #ffffff; /* Background color of the navigation bar */
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+nav ol {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   text-align: center; /* Center align the list items */
+}
+
+
+nav li {
+   display: inline-block;
+   margin-right: 20px; /* Adjust spacing between buttons */
+}
+
+
+nav li a {
+    color: #013C30; /* Text color of the buttons */
+    text-decoration: none;
+    padding: 10px 40px; /* Adjust padding as needed */
+    border: 1px solid #ffffff; /* Border around buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    font-family: 'League Spartan', serif;
+    font-size: 15px;
+}
+
+
+nav li a:hover {
+   background-color: #555; /* Background color on hover */
+}
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
@@ -40,20 +78,36 @@ h2 {
     font-size: 0.9em;
 }
 
-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.book-now {
+    margin-top: 18em;
 }
 
-button:hover {
-    background-color: #45a049;
+.book-now h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.book-now button {
+    background-color: #026451;
+    border: none;
+    padding: 15px 70px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.book-now button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.book-now button:hover {
+    background-color: #013C30; /* A little darker background on hover */
+}
+.leaves1-icon {
+    max-width: 700px; /* Adjust based on actual size of the diamond icon */
+    height: auto;
+    display: flex;
+    margin: 20px auto;
 }
