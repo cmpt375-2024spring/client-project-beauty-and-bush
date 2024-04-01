@@ -5,8 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="870e9401-9d39-4c8e-8607-33652bef1c2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/aboutstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/faqstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/images/about/badge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/images/about/gs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/images/about/wbc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/images/index/jenna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/images/index/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/client-project-beauty-and-bush.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/client-project-beauty-and-bush.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/book_now_st_george.html" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/book_now_st_george.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/fonts/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/fonts/Ojuju-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/fonts/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/fonts/static/Ojuju-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/fonts/static/Ojuju-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/fonts/static/Ojuju-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/fonts/static/Ojuju-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/fonts/static/Ojuju-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/fonts/static/Ojuju-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/fonts/static/Ojuju-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/moodboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +69,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;taeden&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/18018/PycharmProjects/mysite&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;will&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/willm/client-project-beauty-and-bush/BeautyAndBush/BeautyAndBush&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -59,10 +83,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\18018\PycharmProjects\client-project-beauty-and-bush\BeautyAndBush\BeautyAndBush" />
+      <recent name="C:\Users\willm\client-project-beauty-and-bush\BeautyAndBush\BeautyAndBush" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\willm\client-project-beauty-and-bush\BeautyAndBush\webapp\templates\webapp" />
+      <recent name="C:\Users\willm\client-project-beauty-and-bush\BeautyAndBush\webapp\templates\webapp\webapp" />
+      <recent name="C:\Users\willm\client-project-beauty-and-bush\BeautyAndBush\webapp\templates" />
+      <recent name="C:\Users\willm\client-project-beauty-and-bush\BeautyAndBush\webapp\static\webapp\images\index" />
+      <recent name="C:\Users\willm\client-project-beauty-and-bush\BeautyAndBush\webapp\static\webapp\images\about" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.beauty&amp;bush">
+  <component name="RunManager">
     <configuration name="WebApp" type="Python.DjangoServer" factoryName="Django server">
       <module name="client-project-beauty-and-bush" />
       <option name="ENV_FILES" value="" />
@@ -110,6 +141,11 @@
       <workItem from="1709752340318" duration="178000" />
       <workItem from="1709752544757" duration="5835000" />
       <workItem from="1710784799048" duration="1192000" />
+      <workItem from="1710957587643" duration="6662000" />
+      <workItem from="1710993536689" duration="4838000" />
+      <workItem from="1711035230736" duration="608000" />
+      <workItem from="1711157302954" duration="78000" />
+      <workItem from="1711227447470" duration="1766000" />
     </task>
     <servers />
   </component>
