@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="870e9401-9d39-4c8e-8607-33652bef1c2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/my_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/my_account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>

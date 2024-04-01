@@ -1,4 +1,5 @@
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
+from .forms import CustomUserCreationForm
 from django.contrib.auth import login, authenticate
 from django.shortcuts import render, redirect
 from django.views import generic
@@ -28,10 +29,6 @@ def my_account(request):
     return render(request, 'webapp/my_account.html')
 
 
-class AccountView(generic.DetailView):
-    pass
-
-
 def history(request):
     return render(request, 'webapp/history.html')
 
@@ -46,12 +43,12 @@ def st_george_home(request):
 
 def signup(request):
     if request.method == 'POST':
-        form = UserCreationForm(request.POST)
+        form = CustomUserCreationForm(request.POST)
         if form.is_valid():
             form.save()
             return redirect('login')
     else:
-        form = UserCreationForm()
+        form = CustomUserCreationForm()
     return render(request, 'webapp/signup.html', {'form': form})
 
 
@@ -64,7 +61,7 @@ def user_login(request):
             user = authenticate(username=username, password=password)
             if user is not None:
                 login(request, user)
-                return redirect('my_account')
+                return redirect('my-account')
     else:
         form = AuthenticationForm()
     return render(request, 'webapp/login.html', {'form': form})
