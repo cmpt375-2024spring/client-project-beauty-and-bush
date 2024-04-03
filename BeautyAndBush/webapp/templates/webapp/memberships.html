@@ -3,8 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <title>Memberships | Empire Body Waxing</title>
+     {% load static %}
+   <link rel="stylesheet" href="{% static 'webapp/images' %}">
+    <link rel="stylesheet" href="{% static 'webapp/style.css' %}">
+    <link rel="stylesheet" href="{% static 'webapp/membership_style.css' %}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <!-- This is the kit for importing icons -->
+    <script src="https://kit.fontawesome.com/ad9fa19830.js" crossorigin="anonymous"></script></head>
 </head>
-<body>
-    <p>Memberships Page</p>
+<body class = "membership-body">
+    <nav>
+        <ul>
+            <li><a href="{% url 'index' %}">HOME</a></li>
+            <li><a href="{% url 'st_george' %}">ST. GEORGE HOME</a></li>
+            <li><a href="{% url 'about' %}">ABOUT</a></li>
+            <li><a href="{% url 'faq' %}">FAQ</a></li>
+            <li><a href="{% url 'services' %}">SERVICES</a></li>
+            <li><a href="{% url 'memberships' %}">MEMBERSHIPS</a></li>
+            <li><a href="{% url 'contact_us' %}">CONTACT US</a></li>
+            <li><a href="{% url 'login' %}">LOGIN</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    <div class="membership-container">
+        <h1 class = "header"> Memberships</h1>
+
+        <div class="membership-info">
+            <h2 class = "header1"> GET WAXED. SAVE MONEY. GIVE BACK. </h2>
+            <p1>Memberships get you the most bang for your buck.</p1>
+            <p1>Locking in a low price in exchange for monthly auto-pay, you'll also receive:</p1>
+            <ul class = "bullet-list">
+                <li>10% off all other products & services</li>
+                <li>Priority booking</li>
+                <li>Benefits roll over for up to 90 days and can be used on other services</li>
+            </ul>
+            <p1>As a member, you also help support our #Empireempowers initiative where we donate to the local causes that are important to us.</p1>
+        </div>
+        <div class ="notsofine-info">
+            <h2 class = "header1"> THE NOT-SO-FINE PRINT</h2>
+            <ul class = "bullet-list">
+                <li>Memberships are an initial 3-month commitment and then move month-to-month</li>
+                <li>Autopay is processed on the 1st of each month</li>
+                <li>Subject to late fees if not processed by the 3rd of each month</li>
+                <li>Cancellation voids any rollover benefits accrued</li>
+                <li>Memberships are non-refundable & non-transferable</li>
+                <li>Benefits applied to other services must be used in-full and partial benefit amounts will not be applied or tracked.</li>
+            </ul>
+        </div>
+        <div class="options-info">
+            <h2 class = "header1"> MEMBERSHIP OPTIONS</h2>
+            <ul class = "notbullet">
+                <li> Brazilian vulva </li>
+                <li> Brazilian scrotum </li>
+                <li> Student Brazilian(Students/Teachers/Faculty/Staff With Valid ID)</li>
+                <li> Brows </li>
+                <li> Brazilian + Brows </li>
+                <li> Multi-Area </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{% static 'webapp/script.js' %}"></script>
 </body>
 </html>

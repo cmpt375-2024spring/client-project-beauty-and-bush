@@ -1,0 +1,49 @@
+ .membership-body {
+  font-family: "Roboto Flex", sans-serif; /* Replace with the specific font used */
+  margin: 0;
+  padding: 0;
+  background: #ffffff; /* Replace with the exact background color if needed */
+  font-size: 16px; /* Base font size */
+}
+
+.membership-container {
+  max-width: 700px; /* Adjust as needed for your design */
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.membership-info, notsofine-info, options-info {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.bullet-list {
+  text-align: left;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 300;
+}
+.bullet-list li {
+  margin-bottom: 15px;
+}
+.notbullet li {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.header {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 5em;
+    padding: 20px;
+}
+.header1 {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+}

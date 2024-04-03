@@ -1,5 +1,4 @@
  body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 40px;
     background-color: #fff;
@@ -12,23 +11,28 @@
         text-align: center;
     }
     h1, h2, h3 {
-        color: #070E07;
+        color: #000;
     }
-    h1 {
-        font-size: 60px;
+    .container h1 {
+        font-size: 55px;
         text-align: center;
-        margin-bottom: 40px;
+        margin: 40px 0px 40px;
+        font-family: "Archivo Black", sans-serif;
+        letter-spacing: 5px;
     }
-    h2 {
-        font-size: 60px;
+    .container h2 {
+        font-size: 50px;
         text-align:center;
         margin-top: 60px;
         margin-bottom: 20px;
+        font-family: "Archivo", sans-serif;
+        font-weight: 500;
     }
-    p {
+    .container p {
         color: #000;
         line-height: 1.6;
-        width: 40em;
+        font-family: "Roboto Flex", sans-serif;
+        font-size: 24px;
     }
     .story {
         padding-top: 20px;
@@ -42,6 +46,9 @@
     .empowerment-section h3 {
         font-size: 50px;
         margin-bottom: 20px;
+        font-family: "Archivo", sans-serif;
+        font-weight: 500;
+        color: black;
     }
     .recipients {
         margin-top: 20px;
@@ -55,8 +62,41 @@
         justify-content: center; /* Aligns items to the start of the container */
         align-items: center; /* Centers items vertically */
         gap: 10px; /* Adjust the space between the badges */
+        width: 100%;
     }
     .badge {
-        max-width: 150px; /* Adjust the width as necessary */
-        height: auto; /* This ensures that the aspect ratio of the images is maintained */
+        max-width: 35%; /* Adjust the width as necessary */
+        height: auto !important; /* This ensures that the aspect ratio of the images is maintained */
     }
+
+
+    /*Responsiveness*/
+
+ @media only screen and (max-width: 768px) {
+    .badge {
+        max-width: 30%; /* Adjust the width as necessary */
+        height: auto !important; /* This ensures that the aspect ratio of the images is maintained */
+    }
+ }
+
+ @media only screen and (max-width: 540px) {
+    .container h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+    .container h2 {
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .container p {
+        font-size: 18px;
+    }
+     .empowerment-section h3 {
+        font-size: 40px;
+    }
+     .badge {
+        width: 20%; /* Adjust the width as necessary */
+        height: auto !important; /* This ensures that the aspect ratio of the images is maintained */
+    }
+ }

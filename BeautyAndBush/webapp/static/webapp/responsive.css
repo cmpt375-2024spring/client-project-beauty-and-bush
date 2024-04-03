@@ -1,0 +1,154 @@
+@media only screen and (max-width: 768px){
+    /*make the logo image smaller */
+    .logo-icon {
+        max-width: 600px; /* Adjust based on actual size of the diamond icon */
+        height: auto;
+        margin: 20px auto;
+    }
+    .book-now {
+        margin-top: 8em;
+    }
+    .mission img {
+        width: 70%;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 5em;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    /*make the logo image smaller */
+    .logo-icon {
+        max-width: 450px; /* Adjust based on actual size of the diamond icon */
+        height: auto;
+        margin: 20px auto;
+    }
+    .book-now {
+        margin-top: 7em;
+    }
+    .image {
+        display: flex;
+        align-items: center;
+    }
+    .mission img {
+        width: 70%;
+        height: 50%;
+        margin-left: 50px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .book-now h2 {
+        font-size: 30px;
+    }
+
+    .book-now button {
+        padding: 15px 40px;
+    }
+
+    .book-now button a{
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    /*make the logo image smaller */
+    .logo-icon {
+        max-width: 400px; /* Adjust based on actual size of the diamond icon */
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .founder {
+        width: 75%;
+    }
+
+    .book-now {
+        margin-top: 5em;
+    }
+
+    .mission img {
+        width: 70%;
+        height: 50%;
+        margin-left: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .book-now h2 {
+        font-size: 24px;
+    }
+
+    .book-now button {
+        padding: 15px 40px;
+    }
+
+    .book-now button a {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 432px){
+    /*make the logo image smaller */
+    .logo-icon {
+        max-width: 350px; /* Adjust based on actual size of the diamond icon */
+        height: auto;
+        margin: 15px auto;
+    }
+    .book-now {
+        margin-top: 4em;
+    }
+
+    .mission img {
+        width: 70%;
+        height: 50%;
+        margin-left: 50px;
+    }
+
+    .mission {
+        margin: 3em 0em 5em;
+    }
+    h2 {
+        font-size: 30px;
+    }
+
+    .book-now h2 {
+        font-size: 18px;
+    }
+
+    .book-now button {
+        padding: 15px 30px;
+    }
+
+    .book-now button a {
+        font-size: 13px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
