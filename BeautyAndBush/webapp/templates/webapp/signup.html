@@ -25,13 +25,15 @@
         </div>
     </nav>
     
-    <p>SIGN UP</p>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <div class="book-now">
-            <button><a type="submit">SIGN UP</a></button>
-        </div>
-    </form>
+    <div class="signup-body">
+        <h1>SIGN UP</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <div class="book-now">
+                <button><a type="submit">SIGN UP</a></button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
