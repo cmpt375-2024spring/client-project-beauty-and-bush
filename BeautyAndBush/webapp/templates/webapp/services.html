@@ -1,10 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Services | Empire Body Waxing</title>
+ {% load static %}
+<link rel="stylesheet" href="{% static 'webapp/servicesstyle.css' %}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Services | Empire Body Waxing</title>
 </head>
 <body>
-    <p>Services Page</p>
+<nav>
+    <ul>
+        <li><a href="{% url 'index' %}">HOME</a></li>
+        <li><a href="{% url 'st_george' %}">ST. GEORGE HOME</a></li>
+        <li><a href="{% url 'about' %}">ABOUT</a></li>
+        <li><a href="{% url 'faq' %}">FAQ</a></li>
+        <li><a href="{% url 'services' %}">SERVICES</a></li>
+        <li><a href="{% url 'memberships' %}">MEMBERSHIPS</a></li>
+        <li><a href="{% url 'contact_us' %}">CONTACT US</a></li>
+        <li><a href="{% url 'login' %}">LOGIN</a></li>
+    </ul>
+    </nav>
+<h2>Services</h2>
+<p class="tagline">Friends Don’t Let Friends Shave</p>
+<div class="service">
+    <h3>Vulva Exclusive</h3>
+    <p>BRAZILIAN</p>
+    <p>[As much or as little as you like + Inner Glutes]</p>
+    <p>BRAZILIAN EXTENDED</p>
+    <p>[Brazilian + Inner Glutes]</p>
+    <div class="image">
+        <img src="{% static 'webapp/images/services/leaves.png' %}" alt="leaves1" class = "leaves2-icon">
+    </div>
+    <div class="book-now">
+            <button><a href="https://dashboard.boulevard.io/booking/businesses/ad0bba7b-526d-477c-9f9f-dd214341b808/widget#/visit-type" target="_blank">BOOK NOW</a></button>
+        </div>
+</div>
+<div class="service">
+    <h4>Scrotum Exclusive</h4>
+    <p1>BRAZILIAN</p1>
+    <p1>[As much or as little as you like + Inner Glutes]</p1>
+    <p1>BRAZILIAN EXTENDED</p1>
+    <p1>[Brazilian + Inner Glutes]</p1>
+    <p1>SACK + CRACK</p1>
+    <p1>[Scrotum + Inner Glutes</p1>
+    <div class="image">
+        <img src="{% static 'webapp/images/services/leaves1.png' %}" alt="leaves1" class = "leaves3-icon">
+    </div>
+    <div class="book-now">
+            <buttona><a href="https://dashboard.boulevard.io/booking/businesses/ad0bba7b-526d-477c-9f9f-dd214341b808/widget#/visit-type" target="_blank">BOOK NOW</a></buttona>
+        </div>
+</div>
+<div class="service">
+    <h3>Waxing for Every Body</h3>
+    <p>FACE</p>
+    <p>[Cheeks, Chin, Upper Lip, Nose]</p>
+    <p>BODY</p>
+    <p>[Neckline, Underarms, Arms, Chest, Stomach, Back, Legs, Glutes]</p>
+    <div class="image">
+        <img src="{% static 'webapp/images/services/leaves2.png' %}" alt="leaves2" class = "leaves4-icon">
+    </div>
+    <div class="book-now">
+            <button><a href="https://dashboard.boulevard.io/booking/businesses/ad0bba7b-526d-477c-9f9f-dd214341b808/widget#/visit-type" target="_blank">BOOK NOW</a></button>
+        </div>
+</div>
+<div class="service">
+    <h4>Eyebrows & Eyelashes</h4>
+    <p2>EYEBROWS</p2>
+    <p2>BROW SHAPING</p2>
+    <p2>[Map, Trim, Fill, Highlight]</p2>
+    <p2>BROW TINT</p2>
+    <p2>[lasts up to 6 weeks</p2>
+    <p2> BROW LAMINATION</p2>
+    <p2> UNIBROW CLEANUP</p2>
+    <p2> EYELASHES</p2>
+    <p2> LASH TINT </p2>
+    <p2> lasts up to 6 weeks</p2>
+    <p2> LUSH LIFT</p2>
+    <p2> [Lash Lift] </p2>
+    <div class="image">
+        <img src="{% static 'webapp/images/services/leaves3.png' %}" alt="leaves" class = "leaves5-icon">
+    </div>
+    <!-- Add more sections as needed -->
+    <div class="book-now">
+            <buttonb><a href="https://dashboard.boulevard.io/booking/businesses/ad0bba7b-526d-477c-9f9f-dd214341b808/widget#/visit-type" target="_blank">BOOK NOW</a></buttonb>
+        </div>
+</div>
+<!-- Add more service sections as needed -->
+
+
 </body>
 </html>

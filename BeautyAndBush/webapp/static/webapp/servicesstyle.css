@@ -1,0 +1,227 @@
+
+
+.archivo {
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <100>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+nav {
+    background-color: #ffffff; /* Background color of the navigation bar */
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+nav ol {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   text-align: center; /* Center align the list items */
+}
+
+
+nav li {
+   display: inline-block;
+   margin-right: 20px; /* Adjust spacing between buttons */
+}
+
+
+nav li a {
+    color: #013C30; /* Text color of the buttons */
+    text-decoration: none;
+    padding: 10px 40px; /* Adjust padding as needed */
+    border: 1px solid #ffffff; /* Border around buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    font-family: 'League Spartan', serif;
+    font-size: 15px;
+}
+
+
+nav li a:hover {
+   background-color: #555; /* Background color on hover */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.services-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 92px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.tagline {
+    font-size:32px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service {
+    padding: 20px 0;
+}
+
+.service h3 {
+    font-family: Archivo;
+    font-size: 64px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-left: 100px;
+}
+.service h4 {
+    margin-top: -20px;
+    font-family: Archivo;
+    font-size: 64px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+}
+
+.service p {
+    text-align: center;
+    padding-right: 800px;
+    color: #666;
+    font-size: 32px;
+}
+.service p1 {
+    text-align: center;
+    padding-right:200px;
+    color: #666;
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+    margin-bottom: 10px;
+}
+.service p2 {
+    text-align: center;
+    padding-right:200px;
+    color: #666;
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+    margin-bottom: 30px;
+}
+.book-now {
+    margin-top: 0em;
+}
+.book-now h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.book-now button {
+    margin-left: 190px;
+    background-color: #026451;
+    border: none;
+    padding: 15px 70px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.book-now buttona {
+   position: absolute;
+    right: 250px;
+    top: 1270px;
+    background-color: #026451;
+    border: none;
+    padding: 15px 70px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.book-now buttonb {
+   position: absolute;
+    right: 170px;
+    top: 2740px;
+    background-color: #026451;
+    border: none;
+    padding: 15px 70px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.book-now button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+.book-now buttona a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+.book-now buttonb a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.book-now button:hover {
+    background-color: #013C30; /* A little darker background on hover */
+}
+.book-now buttona:hover {
+    background-color: #013C30; /* A little darker background on hover */
+}
+.book-now buttonb:hover {
+    background-color: #013C30; /* A little darker background on hover */
+}
+.image {
+    width: 50%;
+}
+.leaves1-icon {
+    max-width: 500px; /* Width of the image */
+    height: auto; /* Maintain aspect ratio */
+    display: flex; /* Use flexbox for layout */
+    float:right;
+    justify-content: flex; /* Align children (the image) to the right */
+    margin: 20px auto; /* Margin for spacing around the element */
+}
+.leaves2-icon {
+    position: absolute;
+    right: 200px;
+    top: 380px;
+    max-width: 600px; /* Width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Margin for spacing around the element */
+}
+.leaves3-icon {
+    position: absolute;
+    top: 920px;
+    max-width: 500px; /* Width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Margin for spacing around the element */
+}
+.leaves4-icon {
+    position: absolute;
+    right: 200px;
+    top: 1350px;
+    max-width: 300px; /* Width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Margin for spacing around the element */
+}
+.leaves5-icon {
+    position: absolute;
+    top: 1850px;
+    max-width: 500px; /* Width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Margin for spacing around the element */
