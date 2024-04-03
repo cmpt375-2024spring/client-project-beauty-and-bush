@@ -20,7 +20,7 @@
     /*make the logo image smaller */
     .logo-icon {
         max-width: 450px; /* Adjust based on actual size of the diamond icon */
-        height: auto;
+        height: auto !important;
         margin: 20px auto;
     }
     .book-now {
@@ -65,7 +65,7 @@
     /*make the logo image smaller */
     .logo-icon {
         max-width: 400px; /* Adjust based on actual size of the diamond icon */
-        height: auto;
+        height: auto !important;
         margin: 20px auto;
     }
 
@@ -112,7 +112,7 @@
     /*make the logo image smaller */
     .logo-icon {
         max-width: 350px; /* Adjust based on actual size of the diamond icon */
-        height: auto;
+        height: auto !important;
         margin: 15px auto;
     }
     .book-now {

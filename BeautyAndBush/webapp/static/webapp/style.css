@@ -85,10 +85,6 @@ h1, h2, h3, p {
     padding: 20px;
     text-align: center;
 }
-.container img {
-    height: 300px;
-    width: auto;
-}
 
 header {
     margin-bottom: 50px; /* Adjust as needed */
@@ -96,7 +92,7 @@ header {
 
 .logo-icon {
     max-width: 700px; /* Adjust based on actual size of the diamond icon */
-    height: auto;
+    height: auto !important;
     display: flex;
     margin: 20px auto;
 }
