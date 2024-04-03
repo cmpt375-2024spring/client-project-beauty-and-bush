@@ -11,8 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body class = "membership-body">
     <nav>
         <ul>
             <li><a href="{% url 'index' %}">HOME</a></li>
@@ -25,21 +28,42 @@
             <li><a href="{% url 'login' %}">LOGIN</a></li>
         </ul>
     </nav>
-</body>
-<div class="membership-container">
-    <h1>Memberships</h1>
-</div>
-<div class = "getwaxed-container">
-    Get Waxed. Save Money. Give Back.
-</div>
-<div class="membership-info">
-        <p>Memberships get you the most bang for your buck.</p>
-        <p>Locking in a low price in exchange for monthly auto-pay, you'll also receive:</p>
-        <ul>
-            <li>10% off all other products & services</li>
-            <li>Priority booking</li>
-            <li>Benefits roll over for up to 90 days and can be used on other services</li>
-        </ul>
-        <p>As a member, you also help support our #Empireempowers initiative where we donate to the local causes that are important to us.</p>
+    <div class="membership-container">
+        <h1 class = "header"> Memberships</h1>
+
+        <div class="membership-info">
+            <h2 class = "header1"> GET WAXED. SAVE MONEY. GIVE BACK. </h2>
+            <p1>Memberships get you the most bang for your buck.</p1>
+            <p1>Locking in a low price in exchange for monthly auto-pay, you'll also receive:</p1>
+            <ul class = "bullet-list">
+                <li>10% off all other products & services</li>
+                <li>Priority booking</li>
+                <li>Benefits roll over for up to 90 days and can be used on other services</li>
+            </ul>
+            <p1>As a member, you also help support our #Empireempowers initiative where we donate to the local causes that are important to us.</p1>
+        </div>
+        <div class ="notsofine-info">
+            <h2 class = "header1"> THE NOT-SO-FINE PRINT</h2>
+            <ul class = "bullet-list">
+                <li>Memberships are an initial 3-month commitment and then move month-to-month</li>
+                <li>Autopay is processed on the 1st of each month</li>
+                <li>Subject to late fees if not processed by the 3rd of each month</li>
+                <li>Cancellation voids any rollover benefits accrued</li>
+                <li>Memberships are non-refundable & non-transferable</li>
+                <li>Benefits applied to other services must be used in-full and partial benefit amounts will not be applied or tracked.</li>
+            </ul>
+        </div>
+        <div class="options-info">
+            <h2 class = "header1"> MEMBERSHIP OPTIONS</h2>
+            <ul class = "notbullet">
+                <li> Brazilian vulva </li>
+                <li> Brazilian scrotum </li>
+                <li> Student Brazilian(Students/Teachers/Faculty/Staff With Valid ID)</li>
+                <li> Brows </li>
+                <li> Brazilian + Brows </li>
+                <li> Multi-Area </li>
+            </ul>
+        </div>
     </div>
+</body>
 </html>
