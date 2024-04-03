@@ -4,26 +4,36 @@
     <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Empire Body Waxing</title>
+
     {% load static %}
     <link rel="stylesheet" href="{% static 'webapp/style.css' %}">
+    <link rel="stylesheet" href="{% static 'webapp/responsive.css' %}">
 
+    <!-- This is the font import -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <!-- This is the kit for importing icons -->
+    <script src="https://kit.fontawesome.com/ad9fa19830.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
     <nav>
-    <ul>
-        <li><a href="{% url 'index' %}">HOME</a></li>
-        <li><a href="{% url 'st_george' %}">ST. GEORGE HOME</a></li>
-        <li><a href="{% url 'about' %}">ABOUT</a></li>
-        <li><a href="{% url 'faq' %}">FAQ</a></li>
-        <li><a href="{% url 'services' %}">SERVICES</a></li>
-        <li><a href="{% url 'memberships' %}">MEMBERSHIPS</a></li>
-        <li><a href="{% url 'contact_us' %}">CONTACT US</a></li>
-        <li><a href="{% url 'login' %}">LOGIN</a></li>
-    </ul>
+        <ul>
+            <li><a href="{% url 'index' %}">HOME</a></li>
+            <li><a href="{% url 'st_george' %}">ST. GEORGE HOME</a></li>
+            <li><a href="{% url 'about' %}">ABOUT</a></li>
+            <li><a href="{% url 'faq' %}">FAQ</a></li>
+            <li><a href="{% url 'services' %}">SERVICES</a></li>
+            <li><a href="{% url 'memberships' %}">MEMBERSHIPS</a></li>
+            <li><a href="{% url 'contact_us' %}">CONTACT US</a></li>
+            <li><a href="{% url 'login' %}">LOGIN</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
     </nav>
     <div class="container">
         <header>
@@ -32,12 +42,12 @@
 
         <section class="mission">
             <div class="mission-div">
-                <h2>Our Mission</h2>
+                <h2>OUR MISSION</h2>
                 <p>Empire aims to offer a luxurious full-body waxing experience at an affordable price.</p>
                 <p>We provide quality hair removal for every body while dedicating a portion of our memberships to support the causes we care about.</p>
                 <p>Get Waxed. Save Money. Give Back.</p>
                 <div class="book-now">
-                    <h2>Book SLC</h2>
+                    <h2>BOOK SLC</h2>
                     <button><a href="https://dashboard.boulevard.io/booking/businesses/ad0bba7b-526d-477c-9f9f-dd214341b808/widget#/visit-type" target="_blank">BOOK NOW</a></button>
                 </div>
             </div>
@@ -48,13 +58,16 @@
 
         <section class="founder">
             <h2>MEET THE FOUNDER</h2>
-            <h3>Jenna White</h3>
+            <h3>JENNA WHITE</h3>
             <img src="{% static 'webapp/images/index/jenna.png' %}" alt="Jenna White" class="founder-photo">
             <p>Jenna is passionate about creating opportunities and helping people realize the potential within themselves.</p>
             <p>As a survivor-turned-advocate of domestic violence she believes in the empowerment of self and others and actively seeks out ways to support her community.</p>
             <p>Jenna's favorite services are brows and Brazilians. She’s a mother of 3 marvelous, vivacious children.</p>
         </section>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{% static 'webapp/script.js' %}"></script>
 
 </body>
 </html>
