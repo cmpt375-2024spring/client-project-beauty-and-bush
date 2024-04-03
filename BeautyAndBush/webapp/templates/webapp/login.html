@@ -3,14 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Login | Empire Body Waxing</title>
+    
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'webapp/style.css' %}">
+    
 </head>
 <body>
-    <p>LOG-IN</p>
+    <nav>
+        <ul>
+            <li><a href="{% url 'index' %}">HOME</a></li>
+            <li><a href="{% url 'st_george' %}">ST. GEORGE HOME</a></li>
+            <li><a href="{% url 'about' %}">ABOUT</a></li>
+            <li><a href="{% url 'faq' %}">FAQ</a></li>
+            <li><a href="{% url 'services' %}">SERVICES</a></li>
+            <li><a href="{% url 'memberships' %}">MEMBERSHIPS</a></li>
+            <li><a href="{% url 'contact_us' %}">CONTACT US</a></li>
+            <li><a href="{% url 'login' %}">LOGIN</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <h1>LOG-IN</h1>
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit">NEXT</button>
+        <div class ="book-now">
+            <button type="submit"><a>NEXT</a></button>
+        </div>
     </form>
-    <a href="{% url 'signup' %}">SIGN UP</a>
+    <div class ="book-now">
+        <button><a href="{% url 'signup' %}">SIGN UP</a></button>
+    </div>
 </body>
 </html>
