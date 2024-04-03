@@ -6,6 +6,7 @@
     
     {% load static %}
     <link rel="stylesheet" href="{% static 'webapp/style.css' %}">
+    <link rel="stylesheet" href="{% static 'webapp/login.css' %}">
     
 </head>
 <body>
@@ -26,15 +27,15 @@
     </nav>
 
     <h1>LOG-IN</h1>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <div class ="book-now">
-            <button type="submit"><a>NEXT</a></button>
+    <div class="login-body">
+        <form method="post" class="login-form">
+            {% csrf_token %}
+            {{ form.as_p }}
+                <button type="submit"><a>NEXT</a></button>
+        </form>
+        <div class ="signup-link">
+            <button><a href="{% url 'signup' %}">SIGN UP</a></button>
         </div>
-    </form>
-    <div class ="book-now">
-        <button><a href="{% url 'signup' %}">SIGN UP</a></button>
     </div>
 </body>
 </html>
