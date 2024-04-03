@@ -1,0 +1,270 @@
+@media only screen and (max-width: 1400px){
+    nav li a{
+        padding: 10px 30px; /* Adjust padding so that the nav bar fits within the screen*/
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    nav li {
+       margin-right: 15px; /* Adjust spacing between buttons */
+    }
+
+    nav li a{
+        padding: 10px 25px; /* Adjust padding so that the nav bar fits within the screen*/
+    }
+
+    .book-now {
+        margin-top: 14em; /* Adjust margin top of the div so less white space between book now and our mission */
+    }
+}
+
+
+@media only screen and (max-width: 1178px){
+    nav li {
+       margin-right: 12px; /* Adjust spacing between buttons */
+    }
+
+    nav li a{
+        padding: 10px 20px; /* Adjust padding so that the nav bar fits within the screen*/
+    }
+
+    .book-now {
+        margin-top: 10em;
+    }
+}
+
+@media only screen and (max-width: 1040px){
+    nav li {
+       margin-right: 10px; /* Adjust spacing between buttons */
+    }
+
+    nav li a{
+        padding: 10px 15px; /* Adjust padding so that the nav bar fits within the screen*/
+    }
+
+    .book-now {
+        margin-top: 9em;
+    }
+    nav li {
+       display: inline-block;
+       margin-right: 20px; /* Adjust spacing between buttons */
+    }
+}
+
+
+@media only screen and (max-width: 854px){
+    nav li {
+       margin-right: 6px; /* Adjust spacing between buttons */
+    }
+
+    nav li a{
+        padding: 10px 10px; /* Adjust padding so that the nav bar fits within the screen*/
+    }
+
+    .book-now {
+        margin-top: 9em;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px 0;
+        text-align: right;
+        position: absolute;
+        top: 50px;
+        right: 0; /* Initially position it at right: 0 */
+        background-color: #fff;
+        padding: 12px;
+        display: none; /* Initially hide the nav list */
+    }
+
+    .nav-list-open {
+        display: block; /* Display the nav list when the class is added */
+        animation: slideFromRight 0.5s forwards; /* Apply animation when nav list is open */
+    }
+
+    nav li {
+        display: block; /* Change the display property to block */
+        margin-bottom: 20px; /* Add margin bottom to separate list items */
+    }
+
+    nav li a {
+        display: block; /* Change the display property to block */
+        color: #013C30;
+        text-decoration: none;
+        font-family: 'League Spartan', serif;
+        font-size: 15px;
+        padding: 5px 10px; /* Adjust padding as needed */
+    }
+
+    .menu-toggle {
+        display: flex;
+        text-align: right;
+        padding: 15px 60px 0px;
+        cursor: pointer;
+      }
+
+    @keyframes slideFromRight {
+        from {
+            transform: translateX(100%); /* Start position */
+        }
+        to {
+            transform: translateX(0); /* End position */
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    /*make the logo image smaller */
+    .logo-icon {
+        max-width: 600px; /* Adjust based on actual size of the diamond icon */
+        height: auto;
+        margin: 20px auto;
+    }
+    .book-now {
+        margin-top: 8em;
+    }
+    .mission img {
+        width: 70%;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 5em;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    /*make the logo image smaller */
+    .logo-icon {
+        max-width: 450px; /* Adjust based on actual size of the diamond icon */
+        height: auto;
+        margin: 20px auto;
+    }
+    .book-now {
+        margin-top: 7em;
+    }
+    .image {
+        display: flex;
+        align-items: center;
+    }
+    .mission img {
+        width: 70%;
+        height: 50%;
+        margin-left: 50px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .book-now h2 {
+        font-size: 30px;
+    }
+
+    .book-now button {
+        padding: 15px 40px;
+    }
+
+    .book-now button a{
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    /*make the logo image smaller */
+    .logo-icon {
+        max-width: 400px; /* Adjust based on actual size of the diamond icon */
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .founder {
+        width: 75%;
+    }
+
+    .book-now {
+        margin-top: 5em;
+    }
+
+    .mission img {
+        width: 70%;
+        height: 50%;
+        margin-left: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .book-now h2 {
+        font-size: 24px;
+    }
+
+    .book-now button {
+        padding: 15px 40px;
+    }
+
+    .book-now button a {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 432px){
+    /*make the logo image smaller */
+    .logo-icon {
+        max-width: 350px; /* Adjust based on actual size of the diamond icon */
+        height: auto;
+        margin: 15px auto;
+    }
+    .book-now {
+        margin-top: 4em;
+    }
+
+    .mission img {
+        width: 70%;
+        height: 50%;
+        margin-left: 50px;
+    }
+
+    .mission {
+        margin: 3em 0em 5em;
+    }
+    h2 {
+        font-size: 30px;
+    }
+
+    .book-now h2 {
+        font-size: 18px;
+    }
+
+    .book-now button {
+        padding: 15px 30px;
+    }
+
+    .book-now button a {
+        font-size: 13px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}

@@ -14,12 +14,14 @@
 
 
 body {
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   font-family: Arial, sans-serif;
-   margin: 0;
-   padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
 }
 
 /* Navigation Bar */
@@ -30,10 +32,10 @@ nav {
 }
 
 
-nav ol {
+nav ul {
    list-style-type: none;
    margin: 0;
-   padding: 0;
+   padding: 10px 0;
    text-align: center; /* Center align the list items */
 }
 
@@ -47,16 +49,25 @@ nav li {
 nav li a {
     color: #013C30; /* Text color of the buttons */
     text-decoration: none;
-    padding: 10px 40px; /* Adjust padding as needed */
+    padding: 10px 35px; /* Adjust padding as needed */
     border: 1px solid #ffffff; /* Border around buttons */
     border-radius: 5px; /* Rounded corners for buttons */
     font-family: 'League Spartan', serif;
+    font-weight: 500;
     font-size: 15px;
 }
 
 
 nav li a:hover {
-   background-color: #555; /* Background color on hover */
+    color: black;
+    font-weight: bold; /* Make the text bolder on hover */
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    font-size: 14pt;
 }
 
 
@@ -65,7 +76,7 @@ nav li a:hover {
 h1, h2, h3, p {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif; /* Replace with the correct font-family */
+    font-family: "Archivo Black", sans-serif;
 }
 
 .container {
@@ -84,12 +95,6 @@ header {
     height: auto;
     display: flex;
     margin: 20px auto;
-}
-
-h1 {
-    font-size: 48px; /* Adjust as needed */
-    text-transform: uppercase;
-    letter-spacing: 5px; /* Adjust as needed */
 }
 
 .mission {
@@ -114,12 +119,13 @@ h1 {
 }
 
 h2 {
-    font-size: 48px; /* Adjust as needed */
+    font-size: 64px; /* Adjust as needed */
     margin-bottom: 40px;
+    letter-spacing: 7px;
 }
 
 .book-now {
-    margin-top: 18em;
+    margin-top: 18em; /* Adjust margin as needed */
 }
 
 .book-now h2 {
@@ -140,6 +146,9 @@ h2 {
     text-decoration: none;
     color: #fff;
     font-size: 25px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
 }
 
 .book-now button:hover {
@@ -149,7 +158,7 @@ h2 {
 .founder {
     margin: auto;
     margin-bottom: 50px; /* Adjust as needed */
-    width: 55%;
+    width: 65%;
 }
 
 .founder h2 {
@@ -157,9 +166,10 @@ h2 {
 }
 
 h3 {
-    font-size: 28px; /* Adjust as needed */
+    font-size: 32px; /* Adjust as needed */
     margin: 5px 0 15px;
     color: #013C30;
+    font-family: "Archivo", sans-serif;
 }
 
 .founder-photo {
@@ -169,11 +179,12 @@ h3 {
 }
 
 p {
-    font-size: 22px; /* Adjust as needed */
+    font-size: 28px; /* Adjust as needed */
     line-height: 1.5; /* Adjust as needed */
     color: #000; /* Adjust as needed */
     margin-bottom: 10px; /* Adjust as needed */
     text-align: left;
-
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 300;
 }
 
