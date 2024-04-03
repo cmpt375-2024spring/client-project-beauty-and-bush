@@ -85,6 +85,10 @@ h1, h2, h3, p {
     padding: 20px;
     text-align: center;
 }
+.container img {
+    height: 300px;
+    width: auto;
+}
 
 header {
     margin-bottom: 50px; /* Adjust as needed */
