@@ -5,6 +5,12 @@
     <title>Login | Empire Body Waxing</title>
 </head>
 <body>
-    <p>Login Page</p>
+    <p>LOG-IN</p>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">NEXT</button>
+    </form>
+    <a href="{% url 'signup' %}">SIGN UP</a>
 </body>
 </html>
