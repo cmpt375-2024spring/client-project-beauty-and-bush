@@ -8,42 +8,6 @@
   font-variation-settings:
     "wdth" 100;
 }
-nav {
-    background-color: #ffffff; /* Background color of the navigation bar */
-    padding: 10px 0;
-    text-align: center;
-}
-
-
-nav ol {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   text-align: center; /* Center align the list items */
-}
-
-
-nav li {
-   display: inline-block;
-   margin-right: 20px; /* Adjust spacing between buttons */
-}
-
-
-nav li a {
-    color: #013C30; /* Text color of the buttons */
-    text-decoration: none;
-    padding: 10px 40px; /* Adjust padding as needed */
-    border: 1px solid #ffffff; /* Border around buttons */
-    border-radius: 5px; /* Rounded corners for buttons */
-    font-family: 'League Spartan', serif;
-    font-size: 15px;
-}
-
-
-nav li a:hover {
-   background-color: #555; /* Background color on hover */
-}
-
 
 body {
     font-family: Arial, sans-serif;
