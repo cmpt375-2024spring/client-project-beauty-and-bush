@@ -29,6 +29,9 @@
         font-weight: 500;
     }
     .container p {
+        text-align: center;
+        width: 60%;
+        margin-left: 11em;
         color: #000;
         line-height: 1.6;
         font-family: "Roboto Flex", sans-serif;

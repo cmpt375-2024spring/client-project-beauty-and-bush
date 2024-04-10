@@ -17,14 +17,6 @@ body {
     padding: 20px;
 }
 
-.services-container {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 h2 {
     font-size: 92px;
     color: #333;
@@ -149,24 +141,16 @@ h2 {
 .book-now buttonb:hover {
     background-color: #013C30; /* A little darker background on hover */
 }
-.image {
-    width: 50%;
-}
-.leaves1-icon {
-    max-width: 500px; /* Width of the image */
-    height: auto; /* Maintain aspect ratio */
-    display: flex; /* Use flexbox for layout */
-    float:right;
-    justify-content: flex; /* Align children (the image) to the right */
-    margin: 20px auto; /* Margin for spacing around the element */
+.parent-container{
+    position: relative;
 }
 .leaves2-icon {
-    position: absolute;
-    right: 200px;
-    top: 380px;
-    max-width: 600px; /* Width of the image */
+    max-width: 100%; /* Ensures the image does not exceed the width of its container */
     height: auto; /* Maintain aspect ratio */
-    margin: 20px auto; /* Margin for spacing around the element */
+    display: block; /* Use block layout for the image container */
+    float: right; /* Aligns the image to the right */
+    margin-top: -300px;
+    margin-right: 150px;
 }
 .leaves3-icon {
     position: absolute;

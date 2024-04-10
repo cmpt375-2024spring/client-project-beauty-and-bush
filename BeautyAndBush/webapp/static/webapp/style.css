@@ -125,7 +125,7 @@ h2 {
 }
 
 .book-now {
-    margin-top: 18em; /* Adjust margin as needed */
+    margin-top: 10em; /* Adjust margin as needed */
 }
 
 .book-now h2 {
@@ -134,6 +134,7 @@ h2 {
 }
 
 .book-now button {
+    margin-bottom: 30px;
     background-color: #026451;
     border: none;
     padding: 15px 70px;
