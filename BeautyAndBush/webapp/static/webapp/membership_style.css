@@ -15,10 +15,12 @@
 }
 .membership-info, notsofine-info, options-info {
   font-family: "Roboto Flex", sans-serif;
-  font-weight: 300;
+  font-weight: 250;
   font-size: 1em;
   text-align: center;
+  letter-spacing: 2px;
   margin-bottom: 40px;
+  color: #013C30;
 }
 
 .bullet-list {
@@ -38,12 +40,14 @@
 }
 .header {
     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     padding: 20px;
 }
 .header1 {
   font-family: "Archivo", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 2.2em;
+  color: #013C30;
 }

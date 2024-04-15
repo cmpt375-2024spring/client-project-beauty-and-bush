@@ -10,32 +10,53 @@
   max-width: 600px; /* Adjust as needed for your design */
   margin: 40px auto;
   padding: 20px;
+  margin-bottom: 20px;
+
 }
 
 .faq-container h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 
 .faq-item {
-  border-bottom: 1px solid #ccc; /* Add a border color as per design */
+  /* border-bottom: 1px solid #ccc; /* Add a border color as per design */
   padding-bottom: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+li {
+    margin-bottom: 10px;
 }
 
 .question, .answer {
-  font-size: 0.9em;
+  font-size: 1.5em;
   line-height: 1.4;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 .question {
-  font-weight: bold;
+  font-weight: 400;
   margin-bottom: 5px;
+  color: #026451;
 }
 
 .answer {
-  margin-bottom: 20px; /* Space after the answer */
+  display: none;
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+  opacity: 0; /* Initially hide the answer */
+  color: black;
+  font-size: 15px;
+  border: 1.5px solid #026451;
+  padding: 20px;
+}
+.question:hover + .answer {
+  display: inline-block;
+  opacity: 1; /* Show the answer smoothly */
+    
+}
+.question:hover {
+    font-weight: bold;
 }
 
 /* Additional styles for responsiveness and aesthetics may be necessary */
