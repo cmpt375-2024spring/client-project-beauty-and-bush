@@ -1,116 +1,312 @@
 
 
-.archivo {
-  font-family: "Archivo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <100>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     color: #333;
     margin: 0;
     padding: 20px;
 }
 
 h2 {
-    font-size: 92px;
+    font-family: "Archivo", sans-serif;
+    font-size: 96px;
     color: #333;
     text-align: center;
-    margin-bottom: 0px;
+   /* margin-bottom: 0px;*/
 }
 
 .tagline {
+    margin-top: -30px;
+    font-weight: 500;
     font-size:32px;
-    font-style: italic;
+    font-family: "Archivo", sans-serif;
+    color: #026451;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.service {
+.left {
     padding: 20px 0;
+
+}
+.right{
+    padding:20px 0;
+}
+.left p {
+    font-family: "Roboto Flex", sans-serif;
+    text-align: left;
+    display:flex;
+    justify-content: flex-start; /*Align to left*/
+    padding-left: 185px;
+   /* padding-right: 800px;*/
+    color: #666;
+    font-size: 32px;
+}
+.left p1 {
+    font-family: "Roboto Flex", sans-serif;
+    text-align: left;
+    display:flex;
+    justify-content: flex-start; /*Align to left*/
+    padding-left: 50px;
+   /* padding-right: 800px;*/
+    color: #666;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.left p4 {
+    font-family: "Roboto Flex", sans-serif;
+    text-align: left;
+    display:flex;
+    justify-content: flex-start; /*Align to left*/
+    padding-left: 100px;
+   /* padding-right: 800px;*/
+    color: #666;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.left p5 {
+    font-family: "Roboto Flex", sans-serif;
+    text-align: center;
+    display:flex;
+    justify-content: flex-start; /*Align to left*/
+    padding-left: 100px;
+   /* padding-right: 800px;*/
+    color: #666;
+    font-size: 32px;
+    margin-bottom: 40px;
+    width: 30%;
+}
+.left p2 {
+    font-weight: bold;
+    font-family: "Roboto Flex", sans-serif;
+    text-align: center;
+    display:flex;
+    justify-content: flex-start; /*Align to right*/
+    padding-left: 180px;
+    color: #026451;
+    font-size: 32px;
 }
 
-.service h3 {
-    font-family: Archivo;
+.left p3 {
+    font-weight: bold;
+    font-family: "Roboto Flex", sans-serif;
+    text-align: center;
+    display:flex;
+    justify-content: flex-start; /*Align to right*/
+    padding-left: 250px;
+    color: #026451;
+    font-size: 32px;
+}
+.left h3 {
+    font-family: "Archivo", sans-serif;
     font-size: 64px;
     color: #333;
     margin-bottom: 10px;
     padding-left: 100px;
 }
-.service h4 {
-    margin-top: -20px;
-    font-family: Archivo;
+.left h4 {
+    font-family: "Archivo", sans-serif;
+    font-size: 64px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-left: 100px;
+    width: 30%;
+}
+.right h5 {
+    text-align: right;
+    font-family: "Archivo", sans-serif;
+    font-size: 64px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-left: 500px;
+    width: 50%;
+}
+
+.right h3 {
+    text-align: right;
+    font-family: "Archivo", sans-serif;
     font-size: 64px;
     color: #333;
     margin-bottom: 10px;
     padding-right: 100px;
-    display: flex;
-    justify-content: flex-end; /* Aligns items to the right */
 }
 
-.service p {
-    text-align: center;
-    padding-right: 800px;
+.right p4 {
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    justify-content: right;/* Align to left*/
+    padding-right: 90px;
     color: #666;
     font-size: 32px;
+    margin-bottom: 40px;
 }
-.service p1 {
-    text-align: center;
-    padding-right:200px;
+
+
+.right p {
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    justify-content: right; /*Align to right*/
+    padding-right: 235px;
     color: #666;
     font-size: 32px;
-    display: flex;
-    justify-content: flex-end; /* Aligns items to the right */
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
-.service p2 {
-    text-align: center;
-    padding-right:200px;
+.right p1 {
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    justify-content: right; /*Align to right*/
+    padding-right: 90px;
     color: #666;
     font-size: 32px;
-    display: flex;
-    justify-content: flex-end; /* Aligns items to the right */
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
+.right p2 {
+    font-weight: bold;
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    justify-content: right; /*Align to right*/
+    padding-right: 230px;
+    color: #026451;
+    font-size: 32px;
+}
+.right p3 {
+    justify-content: right;
+    padding-right: 325px;
+    font-weight: bold;
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    color: #026451;
+    font-size: 32px;
+}
+.right p4 {
+    justify-content: right;
+    padding-right: 285px;
+    font-weight: bold;
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    color: #026451;
+    font-size: 32px;
+}
+.right p5 {
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    justify-content: right; /*Align to right*/
+    padding-right: 235px;
+    color: #666;
+    font-size: 32px;
+    margin-bottom: 40px;
+    margin-top: -45px;
+}
+.right p6 {
+    font-weight: bold;
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    justify-content: right;/* Align to left*/
+    padding-right: 380px;
+    padding-top: 30px;
+    color: #000000;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.right p7 {
+    justify-content: right;
+    padding-right: 350px;
+    font-weight: bold;
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    color: #026451;
+    font-size: 32px;
+}
+.right p8 {
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    justify-content: right; /*Align to right*/
+    padding-right: 250px;
+    color: #666;
+    font-size: 32px;
+    margin-bottom: 40px;
+
+}
+.right p9 {
+    justify-content: right;
+    padding-right: 380px;
+    font-weight: bold;
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    color: #026451;
+    font-size: 32px;
+}
+
+.right p10 {
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    justify-content: right; /*Align to right*/
+    padding-right: 330px;
+    color: #666;
+    font-size: 32px;
+    margin-bottom: 40px;
+
+}
+.right p11 {
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    justify-content: right; /*Align to right*/
+    padding-right: 300px;
+    color: #666;
+    font-size: 32px;
+    margin-bottom: 40px;
+   /* margin-top: -40px;*/
+}
+.right p12 {
+    justify-content: right;
+    padding-right: 310px;
+    font-weight: bold;
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    color: #026451;
+    font-size: 32px;
+}
+.right p13 {
+    justify-content: right;
+    padding-right: 310px;
+    font-weight: bold;
+    font-family: "Roboto Flex", sans-serif;
+    display:flex;
+    color: #026451;
+    font-size: 32px;
+}
+
+
 .book-now {
     margin-top: 0em;
 }
+.book-now2 {
+    margin-top: 0em;
+}
+
 .book-now h2 {
     font-size: 36px;
     margin-bottom: 10px;
 }
 .book-now button {
+    display:flex;
+    justify-content: flex-start;
     margin-left: 190px;
+    margin-top: -100px;
     background-color: #026451;
     border: none;
-    padding: 15px 70px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
 }
-.book-now buttona {
-   position: absolute;
-    right: 250px;
-    top: 1270px;
+.book-now2 button {
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 1000px;
+    margin-top: 30px;
     background-color: #026451;
     border: none;
-    padding: 15px 70px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 10px;
-}
-.book-now buttonb {
-   position: absolute;
-    right: 170px;
-    top: 2740px;
-    background-color: #026451;
-    border: none;
-    padding: 15px 70px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
@@ -121,12 +317,7 @@ h2 {
     color: #fff;
     font-size: 25px;
 }
-.book-now buttona a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 25px;
-}
-.book-now buttonb a {
+.book-now2 button a {
     text-decoration: none;
     color: #fff;
     font-size: 25px;
@@ -135,12 +326,10 @@ h2 {
 .book-now button:hover {
     background-color: #013C30; /* A little darker background on hover */
 }
-.book-now buttona:hover {
+.book-now2 button:hover {
     background-color: #013C30; /* A little darker background on hover */
 }
-.book-now buttonb:hover {
-    background-color: #013C30; /* A little darker background on hover */
-}
+
 .parent-container{
     position: relative;
 }
@@ -153,23 +342,25 @@ h2 {
     margin-right: 150px;
 }
 .leaves3-icon {
-    position: absolute;
-    top: 920px;
-    max-width: 500px; /* Width of the image */
+    max-width: 100%; /* Ensures the image does not exceed the width of its container */
     height: auto; /* Maintain aspect ratio */
-    margin: 20px auto; /* Margin for spacing around the element */
+    display: block; /* Use block layout for the image container */
+    float: left; /* Aligns the image to the right */
+    margin-top: -400px;
+    margin-left: 50px;
 }
 .leaves4-icon {
-    position: absolute;
-    right: 200px;
-    top: 1350px;
-    max-width: 300px; /* Width of the image */
+    max-width: 100%; /* Ensures the image does not exceed the width of its container */
     height: auto; /* Maintain aspect ratio */
-    margin: 20px auto; /* Margin for spacing around the element */
+    display: block; /* Use block layout for the image container */
+    float: right; /* Aligns the image to the right */
+    margin-top: -450px;
+    margin-right: 150px;
 }
 .leaves5-icon {
-    position: absolute;
-    top: 1850px;
-    max-width: 500px; /* Width of the image */
+    max-width: 100%; /* Ensures the image does not exceed the width of its container */
     height: auto; /* Maintain aspect ratio */
-    margin: 20px auto; /* Margin for spacing around the element */
+    display: block; /* Use block layout for the image container */
+    float: left; /* Aligns the image to the right */
+    margin-top: -900px;
+    margin-left: 50px;
