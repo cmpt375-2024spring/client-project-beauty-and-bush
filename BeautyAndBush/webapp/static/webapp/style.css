@@ -85,10 +85,6 @@ h1, h2, h3, p {
     padding: 20px;
     text-align: center;
 }
-.container img {
-    height: 300px;
-    width: auto;
-}
 
 header {
     margin-bottom: 50px; /* Adjust as needed */
@@ -96,7 +92,7 @@ header {
 
 .logo-icon {
     max-width: 700px; /* Adjust based on actual size of the diamond icon */
-    height: auto;
+    height: auto !important;
     display: flex;
     margin: 20px auto;
 }
@@ -129,7 +125,7 @@ h2 {
 }
 
 .book-now {
-    margin-top: 18em; /* Adjust margin as needed */
+    margin-top: 10em; /* Adjust margin as needed */
 }
 
 .book-now h2 {
@@ -138,6 +134,7 @@ h2 {
 }
 
 .book-now button {
+    margin-bottom: 30px;
     background-color: #026451;
     border: none;
     padding: 15px 70px;
@@ -192,3 +189,121 @@ p {
     font-weight: 300;
 }
 
+
+/* Responsiveness for Nav bar */
+
+@media only screen and (max-width: 1400px){
+    nav li a{
+        padding: 10px 30px; /* Adjust padding so that the nav bar fits within the screen*/
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    nav li {
+       margin-right: 15px; /* Adjust spacing between buttons */
+    }
+
+    nav li a{
+        padding: 10px 25px; /* Adjust padding so that the nav bar fits within the screen*/
+    }
+
+    .book-now {
+        margin-top: 14em; /* Adjust margin top of the div so less white space between book now and our mission */
+    }
+}
+
+
+@media only screen and (max-width: 1178px){
+    nav li {
+       margin-right: 12px; /* Adjust spacing between buttons */
+    }
+
+    nav li a{
+        padding: 10px 20px; /* Adjust padding so that the nav bar fits within the screen*/
+    }
+
+    .book-now {
+        margin-top: 10em;
+    }
+}
+
+@media only screen and (max-width: 1040px){
+    nav li {
+       margin-right: 10px; /* Adjust spacing between buttons */
+    }
+
+    nav li a{
+        padding: 10px 15px; /* Adjust padding so that the nav bar fits within the screen*/
+    }
+
+    .book-now {
+        margin-top: 9em;
+    }
+    nav li {
+       display: inline-block;
+       margin-right: 20px; /* Adjust spacing between buttons */
+    }
+}
+
+
+@media only screen and (max-width: 854px){
+    nav li {
+       margin-right: 6px; /* Adjust spacing between buttons */
+    }
+
+    nav li a{
+        padding: 10px 10px; /* Adjust padding so that the nav bar fits within the screen*/
+    }
+
+    .book-now {
+        margin-top: 9em;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px 0;
+        text-align: right;
+        position: absolute;
+        top: 50px;
+        right: 0; /* Initially position it at right: 0 */
+        background-color: #fff;
+        padding: 12px;
+        display: none; /* Initially hide the nav list */
+    }
+
+    .nav-list-open {
+        display: block; /* Display the nav list when the class is added */
+        animation: slideFromRight 0.5s forwards; /* Apply animation when nav list is open */
+    }
+
+    nav li {
+        display: block; /* Change the display property to block */
+        margin-bottom: 20px; /* Add margin bottom to separate list items */
+    }
+
+    nav li a {
+        display: block; /* Change the display property to block */
+        color: #013C30;
+        text-decoration: none;
+        font-family: 'League Spartan', serif;
+        font-size: 15px;
+        padding: 5px 10px; /* Adjust padding as needed */
+    }
+
+    .menu-toggle {
+        display: flex;
+        text-align: right;
+        padding: 15px 60px 0px;
+        cursor: pointer;
+      }
+
+    @keyframes slideFromRight {
+        from {
+            transform: translateX(100%); /* Start position */
+        }
+        to {
+            transform: translateX(0); /* End position */
+        }
+    }
+}

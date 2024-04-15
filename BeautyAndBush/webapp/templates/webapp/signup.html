@@ -6,19 +6,34 @@
     <title>Sign Up Page | Empire Body Waxing</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'webapp/style.css' %}">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p>SIGN UP</p>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <div class="signup">
-            <button><a type="submit">SIGN UP</a></button>
+
+    <nav>
+        <ul>
+            <li><a href="{% url 'index' %}">HOME</a></li>
+            <li><a href="{% url 'st_george' %}">ST. GEORGE HOME</a></li>
+            <li><a href="{% url 'about' %}">ABOUT</a></li>
+            <li><a href="{% url 'faq' %}">FAQ</a></li>
+            <li><a href="{% url 'services' %}">SERVICES</a></li>
+            <li><a href="{% url 'memberships' %}">MEMBERSHIPS</a></li>
+            <li><a href="{% url 'contact_us' %}">CONTACT US</a></li>
+            <li><a href="{% url 'login' %}">LOGIN</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
         </div>
-    </form>
+    </nav>
+    
+    <div class="signup-body">
+        <h1>SIGN UP</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <div class="book-now">
+                <button><a type="submit">SIGN UP</a></button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
