@@ -1,6 +1,155 @@
-p {
-    font-family: "Archivo Black", sans-serif;
-    font-size: 20px;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
     margin: auto;
-    margin-top: 10em;
+    border: 2px solid #013C30;
+    padding: 30px 10px;
+    margin-bottom: 3em;
+    border-radius: 5px;
+}
+
+.contact-box label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add some space between label and input field */
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    width: 94%; /* Ensure the entire width is used */
+    margin-bottom: 2em;
+}
+
+form {
+    width: 80%;
+    font-family: "Roboto Flex", sans-serif;
+    letter-spacing: 2px;
+}
+
+.contact-info label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add some space between label and input field */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 130%; /* Make input fields take up full width */
+    padding: 8px; /* Add some padding for better readability */
+    margin-bottom: 10px; /* Add some space between input fields */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    border: 2px solid black;
+    background-color: rgba(2, 100, 81, 0.1);
+    font-family: "Roboto Flex", sans-serif;
+    letter-spacing: 2px;
+}
+
+textarea {
+    width: 100%;
+    height: 18em;
+}
+
+/* Override browser default styles for autofilled input fields */
+input:-webkit-autofill {
+    background-color: rgba(2, 100, 81, 0.1)!important; /* Set consistent background color */
+}
+
+button {
+    background-color: #026451;
+    padding: 10px;
+    border: none;
+    color: white;
+    float: right;
+    border-radius: 5px;
+    width: 20%;
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    margin-top: 1em;
+    font-size: 14px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/*Styling for pop up after submitting*/
+.popup {
+    display: none; /* Hide popup by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #013C30;
+}
+
+.popup-content {
+    text-align: center;
+    font-family: "Roboto Flex", sans-serif;
+    letter-spacing: 2px;
+    padding: 30px 10px;
+}
+
+.popup-content p {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/* Responsiveness */
+@media only screen and (max-width: 1150px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        width: 120%; /* Make input fields take up full width */
+    }
+    textarea {
+        width: 100%;
+        height: 18em;
+    }
+}
+
+@media only screen and (max-width: 1018px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        width: 115%; /* Make input fields take up full width */
+    }
+    textarea {
+        width: 100%;
+        height: 18em;
+    }
+
+    h2 {
+        font-size: 58px;
+    }
+}
+
+@media only screen and (max-width: 854px) {
 }

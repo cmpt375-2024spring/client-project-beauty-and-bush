@@ -188,6 +188,14 @@ p {
     font-weight: 300;
 }
 
+footer {
+    background-color: #013C30;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: .8em;
+    width: 100%;
+}
 
 /* Responsiveness for Nav bar */
 
@@ -306,3 +314,4 @@ p {
         }
     }
 }
+
