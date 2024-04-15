@@ -44,10 +44,10 @@ function sendEmail() {
         var body = 'Name: ' + name + '<br>Email: ' + email + '<br>Phone: ' + phone + '<br>Question: ' + question;
 
         Email.send({
-            // SecureToken: "3cf829c1-0393-4d90-89ad-d4b5520beee5",
-            Host : "smtp.elasticemail.com",
-            Username : "shreeyamaskey.1@gmail.com",
-            Password : "6D5AD82E2A24EE0499D7FD418093F1F41EFA",
+            SecureToken: "625dfccc-8afe-4d13-848f-6969dcf976f9",
+            // Host : "smtp.elasticemail.com",
+            // Username : "shreeyamaskey.1@gmail.com",
+            // Password : "6D5AD82E2A24EE0499D7FD418093F1F41EFA",
             To: 'shreeyamaskey.1@gmail.com',
             From: "shreeyamaskey.1@gmail.com",
             Subject: "New Inquiry Contact Form From " + name,
@@ -55,11 +55,13 @@ function sendEmail() {
         }).then(
             message => {
                 if (message === 'OK' || message === 'Sent') {
+                    console.log(message);
                     // Show success message
                     showPopupSent();
                     $('#contact-form')[0].reset(); // Reset form after successful submission
                 } else {
                     // Show error message
+                    console.error(message);
                     showPopupNotSent();
                 }
             }
