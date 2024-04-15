@@ -92,6 +92,9 @@ button:hover {
     cursor: pointer;
 }
 
+input:focus {
+  border: 2px solid #013C30!important;
+}
 
 /*Styling for pop up after submitting*/
 .popup {
@@ -139,7 +142,7 @@ button:hover {
     input[type="email"],
     input[type="tel"],
     textarea {
-        width: 115%; /* Make input fields take up full width */
+        width: 115%; /* Make input fields take up more than full width */
     }
     textarea {
         width: 100%;
@@ -152,4 +155,69 @@ button:hover {
 }
 
 @media only screen and (max-width: 854px) {
+    .contact-info {
+        flex-direction: column;
+        width: 100%; /* Ensure the entire width is used */
+        margin-bottom: 0;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea{
+        margin-bottom: 1.5em;
+        width: 100%; /* Make input fields take up full width */
+    }
+
+    h2 {
+        font-size: 54px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 656px) {
+    button {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .contact-box {
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h2 {
+        font-size: 46px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    form {
+        width: 85%;
+    }
+
+    .contact-box label {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 432px) {
+    h2 {
+        font-size: 42px;
+    }
 }

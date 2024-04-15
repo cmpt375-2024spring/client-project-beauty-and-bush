@@ -44,7 +44,10 @@ function sendEmail() {
         var body = 'Name: ' + name + '<br>Email: ' + email + '<br>Phone: ' + phone + '<br>Question: ' + question;
 
         Email.send({
-            SecureToken: "3cf829c1-0393-4d90-89ad-d4b5520beee5",
+            // SecureToken: "3cf829c1-0393-4d90-89ad-d4b5520beee5",
+            Host : "smtp.elasticemail.com",
+            Username : "shreeyamaskey.1@gmail.com",
+            Password : "6D5AD82E2A24EE0499D7FD418093F1F41EFA",
             To: 'shreeyamaskey.1@gmail.com',
             From: "shreeyamaskey.1@gmail.com",
             Subject: "New Inquiry Contact Form From " + name,
