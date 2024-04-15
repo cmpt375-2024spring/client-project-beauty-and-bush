@@ -1,5 +1,7 @@
 from django.db import models
 from django.shortcuts import render
+from django.contrib.auth import get_user_model
+User = get_user_model()
 
 
 def MoodBoardView(request):
@@ -7,6 +9,7 @@ def MoodBoardView(request):
 
 
 class MyAccount(models.Model):
+    user = models.OneToOneField(User, primary_key=True, on_delete= models.CASCADE)
     name = models.CharField(max_length=200)
     email = models.EmailField(max_length=200)
     purchase_history = models.TextField(max_length=500)
