@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="870e9401-9d39-4c8e-8607-33652bef1c2e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/my_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/my_account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "taeden__debug",
-    "last_opened_file_path": "C:/Users/18018/PycharmProjects/mysite",
+    "last_opened_file_path": "C:/Users/18018/PycharmProjects/client-project-beauty-and-bush",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -124,6 +126,7 @@
       <workItem from="1711035230736" duration="608000" />
       <workItem from="1711157302954" duration="78000" />
       <workItem from="1711227447470" duration="1766000" />
+      <workItem from="1713205430005" duration="4832000" />
     </task>
     <servers />
   </component>

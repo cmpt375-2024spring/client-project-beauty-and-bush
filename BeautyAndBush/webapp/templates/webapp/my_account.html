@@ -28,6 +28,18 @@
     
      <div class="container">
         <h1 class="giant-title">Account Information</h1>
+         <form method="post">
+        {% csrf_token %}
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="{{ account.name }}"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="{{ account.email }}"><br>
+        <label for="purchase_history">Purchase History:</label>
+        <textarea id="purchase_history" name="purchase_history">{{ account.purchase_history }}</textarea><br>
+        <label for="wallet">Wallet:</label>
+        <input type="text" id="wallet" name="wallet" value="{{ account.wallet }}"><br>
+        <button type="submit">Save Changes</button>
+    </form>
     </div>
 </body>
 </html>
