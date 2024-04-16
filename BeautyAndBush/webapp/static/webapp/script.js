@@ -44,18 +44,16 @@ function sendEmail() {
         var body = 'Name: ' + name + '<br>Email: ' + email + '<br>Phone: ' + phone + '<br>Question: ' + question;
 
         Email.send({
-            SecureToken: "625dfccc-8afe-4d13-848f-6969dcf976f9",
-            // Host : "smtp.elasticemail.com",
-            // Username : "shreeyamaskey.1@gmail.com",
-            // Password : "6D5AD82E2A24EE0499D7FD418093F1F41EFA",
-            To: 'shreeyamaskey.1@gmail.com',
-            From: "shreeyamaskey.1@gmail.com",
+            SecureToken: "3f405439-2429-4ee3-8d35-d1488b532739",
+            To: 'shreeyamaskey.1@gmail.com', //will have to change it to slc@empirebodywaxing.com
+            From: "shreeyamaskey.1@gmail.com", //change email
             Subject: "New Inquiry Contact Form From " + name,
             Body: body
         }).then(
             message => {
                 if (message === 'OK' || message === 'Sent') {
                     console.log(message);
+                    console.log(body);
                     // Show success message
                     showPopupSent();
                     $('#contact-form')[0].reset(); // Reset form after successful submission
