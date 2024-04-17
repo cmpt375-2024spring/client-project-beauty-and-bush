@@ -80,3 +80,8 @@ def user_login(request):
     else:
         form = AuthenticationForm()
     return render(request, 'webapp/login.html', {'form': form})
+
+
+def forgot_password(request):
+    return render(request, 'webapp/forgot_password.html')
+
