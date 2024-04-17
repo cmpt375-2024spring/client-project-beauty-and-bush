@@ -32,6 +32,28 @@ $(document).ready(function() {
         sendEmail();
     });
 });
+//function for FAQ clickable
+function toggleAnswer(question) {
+  var answers = document.querySelectorAll('.answer');
+  var questions = document.querySelectorAll('.question');
+
+  // Remove bold class from all questions
+  questions.forEach(function(q) {
+    q.classList.remove('bold');
+  });
+
+  // Add bold class to clicked question
+  question.classList.add('bold');
+
+  // Hide all answers
+  answers.forEach(function(answer) {
+    answer.classList.remove('active');
+  });
+
+  // Show answer corresponding to clicked question
+  question.nextElementSibling.classList.toggle('active');
+}
+
 
 function sendEmail() {
     var name = $('#name').val();

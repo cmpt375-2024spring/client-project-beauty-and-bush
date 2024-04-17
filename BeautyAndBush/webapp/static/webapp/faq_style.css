@@ -40,7 +40,6 @@ li {
   margin-bottom: 5px;
   color: #026451;
 }
-
 .answer {
   display: none;
   transition: opacity 0.3s ease; /* Smooth transition for opacity */
@@ -51,14 +50,21 @@ li {
   border: 1.5px solid #026451;
   padding: 20px;
 }
-.question:hover + .answer {
-  display: inline-block;
-  opacity: 1; /* Show the answer smoothly */
-    
+
+.answer.active {
+  display: block;
+  opacity: 1;
 }
-.question:hover {
-    font-weight: bold;
+
+.question {
+  cursor: pointer; /* Change cursor to indicate it's clickable */
+  font-weight: normal; /* Reset font weight */
 }
+.question.bold {
+  font-weight: bold; /* Bold font weight */
+}
+
+
 
 /* Additional styles for responsiveness and aesthetics may be necessary */
 
