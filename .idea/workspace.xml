@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="870e9401-9d39-4c8e-8607-33652bef1c2e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/about_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/about_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/servicesstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/servicesstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/services.html" afterDir="false" />
-    </list>
+    <list default="true" id="870e9401-9d39-4c8e-8607-33652bef1c2e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,29 +33,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.WebApp.executor": "Run",
-    "Django Server.beauty&bush.executor": "Run",
-    "JavaScript Debug.moodboard.html.executor": "Run",
-    "Python.urls.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "will__copy",
-    "last_opened_file_path": "C:/Users/18018/PycharmProjects/mysite",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.WebApp.executor&quot;: &quot;Run&quot;,
+    &quot;Django Server.beauty&amp;bush.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.moodboard.html.executor&quot;: &quot;Run&quot;,
+    &quot;Python.urls.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;will__copy&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/18018/PycharmProjects/mysite&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\willm\client-project-beauty-and-bush\BeautyAndBush\BeautyAndBush" />
@@ -127,6 +121,8 @@
       <workItem from="1711035230736" duration="608000" />
       <workItem from="1711157302954" duration="78000" />
       <workItem from="1711227447470" duration="1766000" />
+      <workItem from="1712772270092" duration="6502000" />
+      <workItem from="1713204319815" duration="5460000" />
     </task>
     <servers />
   </component>

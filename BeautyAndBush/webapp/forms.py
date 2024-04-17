@@ -4,14 +4,15 @@ from django.contrib.auth.models import User
 
 
 class CustomUserCreationForm(UserCreationForm):
-    email = forms.EmailField(label="Email", max_length=254)
-
+    username = forms.CharField(label="Username", max_length=254)
+    email = forms.EmailField(label="Email")
     class Meta:
         model = User
-        fields = ("email", "password1", "password2")
+        fields = ("username", "email","password1", "password2")
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.fields["username"].label = "Username"
         self.fields["email"].label = "Email"
         self.fields["password1"].label = "Password"
         self.fields["password2"].label = "Confirm Password"
