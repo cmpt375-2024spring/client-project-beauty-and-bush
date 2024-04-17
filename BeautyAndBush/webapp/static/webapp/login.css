@@ -1,30 +1,112 @@
 body {
-    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     text-align: center;
+    font-family: "Archivo Black", sans-serif;
+    letter-spacing: 2px;
+    margin-top: 2em;
+    font-size: 45px;
 }
 
 .login-body {
-    margin: 5em 0em 7em; /* Adjust as needed */
+    margin: 12vh auto; /* Adjust as needed */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
     align-content: center;
+    flex-direction: column;
+    width: 80%;
+    font-family: "Roboto Flex", sans-serif;
+    letter-spacing: 2px;
+    font-size: 28px;
 }
 
-.login-form {
-    display: inline-block;
+.login-body form {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.login-form label {
-    text-decoration: underline;
+.username,
+.password {
+    margin: 1em auto;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    width: 80%;
+}
+
+.login-form input{
+    border: none;
+    height: 4vh;
+    font-size: 18px;
+    font-family: "Roboto Flex", sans-serif;
+    letter-spacing: 2px;
+    width: 73%;
+    padding: 5px;
+}
+
+.login-form input:focus{
+    outline: none;
+    border-radius: 0;
+    background-color: rgba(2, 100, 81, 0.1);
+}
+
+button {
+    background-color: #026451;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    margin-top: 1em;
+    font-size: 17px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.login-form button {
+    width: 14%;
+    margin-top: 3em;
 }
 
 .signup-link {
-    margin-top: 20px;
+    text-align: center;
+}
+
+.signup-link button{
+    width: 20%;
 }
 
 .signup-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.login-form p {
+    margin-left: 55%;
+}
+
+.login-form p a{
+    text-decoration: none;
+    color: #013C30;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+.login-form p a:hover {
+    font-weight: 600;
     text-decoration: underline;
 }
+
+
+
