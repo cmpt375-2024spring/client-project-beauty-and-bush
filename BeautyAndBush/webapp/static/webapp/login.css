@@ -33,6 +33,7 @@ h1 {
 }
 
 .username,
+.email,
 .password {
     margin: 1em auto;
     border: none;
