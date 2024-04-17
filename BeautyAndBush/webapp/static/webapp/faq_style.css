@@ -47,6 +47,7 @@ li {
   opacity: 0; /* Initially hide the answer */
   color: black;
   font-size: 15px;
+  letter-spacing: 2px;
   border: 1.5px solid #026451;
   padding: 20px;
 }
