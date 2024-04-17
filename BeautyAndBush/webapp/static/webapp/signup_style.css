@@ -13,14 +13,15 @@ h1 {
 }
 
 .signup-link {
-    margin-top: 3em;
+    margin-top: 0;
     width: 80%;
 }
 
 .signup-link button {
-    width: 50%;
+    width: 20%!important;
+    margin: auto;
 }
 
 .login-form .email input{
-    width: 90%;
+    width: 80%;
 }
