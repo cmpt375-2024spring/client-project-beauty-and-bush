@@ -20,3 +20,7 @@ h1 {
 .signup-link button {
     width: 50%;
 }
+
+.login-form .email input{
+    width: 90%;
+}

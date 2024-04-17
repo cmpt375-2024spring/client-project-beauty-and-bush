@@ -30,8 +30,8 @@
     }
     .container p {
         text-align: left;
-        width: 60%;
-        margin-left: 11em;
+        width: 65%;
+        margin: auto;
         color: #000;
         line-height: 1.6;
         font-family: "Roboto Flex", sans-serif;
@@ -83,6 +83,10 @@
         max-width: 30%; /* Adjust the width as necessary */
         height: auto !important; /* This ensures that the aspect ratio of the images is maintained */
     }
+
+     .container p {
+         width: 74%;
+     }
  }
 
  @media only screen and (max-width: 540px) {
