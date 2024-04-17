@@ -39,10 +39,6 @@
     <div class="login-body signup-body">
         <form class="login-form" method="post">
             {% csrf_token %}
-            <div class="email">
-                <label for ="id_email">Email: </label>
-                {{ form.email }}
-            </div>
             <div class="username">
                 <label for="id_username">Username :</label>
                 {{ form.username }}
