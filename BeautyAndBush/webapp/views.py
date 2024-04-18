@@ -1,10 +1,10 @@
-from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
+from django.contrib.auth.forms import AuthenticationForm
 from .forms import CustomUserCreationForm
 from .models import MyAccount
 
 from django.contrib.auth import login, authenticate, get_user_model
 from django.shortcuts import render, redirect
-from django.views import generic
+from django.http import JsonResponse
 
 User = get_user_model()
 def index(request):
@@ -84,8 +84,21 @@ def user_login(request):
 def forgot_password(request):
     return render(request, 'webapp/forgot_password.html')
 
+
 def reset_password(request):
     return render(request, 'webapp/reset_passord.html')
 
+
 def password_reset_confirmation(request):
     return render(request, 'webapp/reset_confirmation.html')
+
+
+def check_email_existence(request):
+    email = request.GET.get('email', None)
+    if email:
+        # Check if email exists in the database
+        email_exists = User.objects.filter(email=email).exists()
+        return JsonResponse({'exists': email_exists})
+    else:
+        # Invalid request, email parameter not provided
+        return JsonResponse({'error': 'Email parameter not provided'}, status=400)

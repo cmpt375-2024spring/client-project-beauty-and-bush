@@ -36,23 +36,66 @@ $(document).ready(function() {
 function sendReset() {
     var email = $('#email').val();
     if (email) {
-        var resetToken = generateRandomToken(16);
-        var resetUrl = "https://127.0.0.1:8000/reset_password/?token=" + resetToken;
-        var body= "You're receiving this email because you requested a password reset for your user account. \nPlease go to the following page and choose a new password: " + resetUrl;
-        Email.send({
-            SecureToken: "3f405439-2429-4ee3-8d35-d1488b532739",
-            To: email,
-            From: "taet.anderson@gmail.com",
-            Subject: "Empire Body Waxing Password Reset",
-            Body: body
-        }).then(
-            function () {
-                // Redirect to the confirmation page after sending the email
-                window.location.href = "/password_reset_confirmation/";
-            }
-        );
+        // Check if email exists in the backend
+        checkEmailExistence(email)
+            .then(function(response) {
+                if (response.exists) {
+                    // Email exists, proceed with password reset
+                    initiatePasswordReset(email);
+                } else {
+                    // Email does not exist, show error message
+                    alert("No account found with this email. Please try again.");
+                }
+            })
+            .catch(function(error) {
+                // Handle error
+                console.error("Error checking email existence:", error);
+                // Show error message to user
+                alert("An error occurred. Please try again later.");
+            });
     }
 }
+
+function checkEmailExistence(email) {
+    // Send an AJAX request to backend to check email existence
+    return new Promise(function(resolve, reject) {
+        $.ajax({
+            url: '/api/check_email_existence/', // Replace with your backend API endpoint
+            method: 'GET',
+            data: { email: email },
+            success: function(response) {
+                resolve(response);
+            },
+            error: function(xhr, status, error) {
+                reject(error);
+            }
+        });
+    });
+}
+
+function initiatePasswordReset(email) {
+    // Generate reset token and URL
+    var resetToken = generateRandomToken(16);
+    var resetUrl = "https://127.0.0.1:8000/reset_password/?token=" + resetToken;
+
+    // Construct email body
+    var body = "You're receiving this email because you requested a password reset for your user account. \nPlease go to the following page and choose a new password: " + resetUrl;
+
+    // Send email
+    Email.send({
+        SecureToken: "3f405439-2429-4ee3-8d35-d1488b532739",
+        To: email,
+        From: "tca0103@westminsteru.edu",
+        Subject: "Empire Body Waxing Password Reset",
+        Body: body
+    }).then(
+        function() {
+            // Redirect to the confirmation page after sending the email
+            window.location.href = "/password_reset_confirmation/";
+        }
+    );
+}
+
 
 function sendEmail() {
     var name = $('#name').val();
