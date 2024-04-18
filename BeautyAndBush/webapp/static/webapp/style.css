@@ -79,6 +79,10 @@ h1, h2, h3, p {
     font-family: "Archivo Black", sans-serif;
 }
 
+h1{
+    font-size: 58px;
+}
+
 .container {
     max-width: 90%;
     margin: auto;
