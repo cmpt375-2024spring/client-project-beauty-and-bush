@@ -42,7 +42,7 @@ function sendReset() {
         Email.send({
             SecureToken: "3f405439-2429-4ee3-8d35-d1488b532739",
             To: email,
-            From: "tca0103@westminsteru.edu",
+            From: "taet.anderson@gmail.com",
             Subject: "Empire Body Waxing Password Reset",
             Body: body
         }).then(
