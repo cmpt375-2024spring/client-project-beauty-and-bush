@@ -84,3 +84,8 @@ def user_login(request):
 def forgot_password(request):
     return render(request, 'webapp/forgot_password.html')
 
+def reset_password(request):
+    return render(request, 'webapp/reset_passord.html')
+
+def password_reset_confirmation(request):
+    return render(request, 'webapp/reset_confirmation.html')

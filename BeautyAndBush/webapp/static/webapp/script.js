@@ -33,13 +33,24 @@ $(document).ready(function() {
     });
 });
 
-function sendEmail() {
+function sendReset() {
     var email = $('#email').val();
     if (email) {
-
+        var resetToken = generateRandomToken(16);
+        var resetUrl = "https://127.0.0.1:8000/reset_password/?token=" + resetToken;
+        var body= "You're receiving this email because you requested a password reset for your user account. \nPlease go to the following page and choose a new password: " + resetUrl;
         Email.send({
-
-            })
+            SecureToken: "3f405439-2429-4ee3-8d35-d1488b532739",
+            To: email,
+            From: "tca0103@westminsteru.edu",
+            Subject: "Empire Body Waxing Password Reset",
+            Body: body
+        }).then(
+            function () {
+                // Redirect to the confirmation page after sending the email
+                window.location.href = "/password_reset_confirmation/";
+            }
+        );
     }
 }
 
@@ -75,4 +86,26 @@ function sendEmail() {
             }
         );
     }
+}
+
+function generateRandomToken(length) {
+    var charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    var token = '';
+    var crypto = window.crypto || window.msCrypto; // Get crypto object for generating random values
+
+    if (crypto && crypto.getRandomValues) {
+        var values = new Uint32Array(length);
+        crypto.getRandomValues(values);
+
+        for (var i = 0; i < length; i++) {
+            token += charset[values[i] % charset.length];
+        }
+    } else {
+        // Fallback to Math.random for browsers not supporting crypto.getRandomValues
+        for (var i = 0; i < length; i++) {
+            token += charset.charAt(Math.floor(Math.random() * charset.length));
+        }
+    }
+
+    return token;
 }

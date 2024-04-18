@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forgot Password? | Empire Body Waxing</title>
+    <title>Email Sent | Empire Body Waxing</title>
     
     {% load static %}
     <link rel="stylesheet" href="{% static 'webapp/style.css' %}">
@@ -18,22 +18,7 @@
     <script src="https://kit.fontawesome.com/ad9fa19830.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Forgot Password?</h1>
-        <div class="contact-box">
-            <form id="contact-form" onsubmit="sendReset(); reset(); return false;">
-                <div class="forgot_password">
-                    <div class="email">
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" required>
-                    </div>
-                </div>
-                <button type="submit">SUBMIT</button>
-            </form>
-        </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="{% static 'webapp/script.js' %}"></script>
-    <!-- For sending emails -->
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <h1>Check Your Inbox</h1>
+    <p> We've emailed you instructions for setting your password. You should receive the email shortly!</p>
 </body>
 </html>
