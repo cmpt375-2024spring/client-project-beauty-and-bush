@@ -55,7 +55,7 @@
                 <label for="id_password2">Confirm Password :</label>
                 {{ form.password2 }}
             </div>
-
+            <input type="checkbox" id="togglePassword"> Show Password
             <div class="signup-link">
                 <button><a type="submit">SIGN UP</a></button>
             </div>
@@ -64,5 +64,7 @@
 
     <footer>&nbsp;</footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{% static 'webapp/script.js' %}"></script>
 </body>
 </html>
