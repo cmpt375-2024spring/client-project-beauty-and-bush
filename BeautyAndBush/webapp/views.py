@@ -86,7 +86,7 @@ def forgot_password(request):
 
 
 def reset_password(request):
-    return render(request, 'webapp/reset_passord.html')
+    return render(request, 'webapp/reset_password.html')
 
 
 def password_reset_confirmation(request):

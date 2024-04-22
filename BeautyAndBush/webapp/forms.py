@@ -19,3 +19,15 @@ class CustomUserCreationForm(UserCreationForm):
 
         self.fields["password1"].help_text = ""
         self.fields["password2"].help_text = ""
+
+    def clean(self):
+        cleaned_data = super().clean()
+        password1 = cleaned_data.get("password1")
+        password2 = cleaned_data.get("password2")
+
+        if password1 and password2 and password1 != password2:
+            raise forms.ValidationError("Passwords do not match.")
+
+        # Add custom password validation rules here if needed
+
+        return cleaned_data

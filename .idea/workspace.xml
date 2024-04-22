@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="870e9401-9d39-4c8e-8607-33652bef1c2e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/forgot_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/forgot_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,6 +128,7 @@
       <workItem from="1711227447470" duration="1766000" />
       <workItem from="1712772270092" duration="6502000" />
       <workItem from="1713204319815" duration="5460000" />
+      <workItem from="1713808343998" duration="1067000" />
     </task>
     <servers />
   </component>
