@@ -7,7 +7,6 @@
     <list default="true" id="870e9401-9d39-4c8e-8607-33652bef1c2e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/servicesstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/static/webapp/servicesstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/BeautyAndBush/webapp/templates/webapp/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +129,8 @@
       <workItem from="1711227447470" duration="1766000" />
       <workItem from="1712772270092" duration="6502000" />
       <workItem from="1713204319815" duration="6078000" />
-      <workItem from="1713377482377" duration="1267000" />
+      <workItem from="1713377482377" duration="1966000" />
+      <workItem from="1713809558189" duration="246000" />
     </task>
     <servers />
   </component>
