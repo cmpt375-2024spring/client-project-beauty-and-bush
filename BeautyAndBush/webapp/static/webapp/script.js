@@ -174,3 +174,20 @@ function generateRandomToken(length) {
 
     return token;
 }
+
+
+$(document).ready(function(){
+    $(document).ready(function(){
+        $('#togglePassword').change(function(){
+            var passwordFields = $('#id_password, #id_password1, #id_password2');
+            passwordFields.each(function() {
+                var passwordFieldType = $(this).attr('type');
+                if(passwordFieldType === 'password'){
+                    $(this).attr('type', 'text');
+                } else {
+                    $(this).attr('type', 'password');
+                }
+            });
+        });
+    });
+});
