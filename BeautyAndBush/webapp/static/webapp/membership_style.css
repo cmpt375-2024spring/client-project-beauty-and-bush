@@ -27,9 +27,13 @@
   text-align: left;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 300;
+  color: #000;
 }
 .bullet-list li {
   margin-bottom: 15px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 .notbullet li {
   list-style-type: none;
@@ -37,6 +41,9 @@
   margin: 0px;
   text-align: left;
   margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 300;
 }
 .header {
     font-family: "Archivo Black", sans-serif;

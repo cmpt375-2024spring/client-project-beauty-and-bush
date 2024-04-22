@@ -6,40 +6,53 @@
     <title>Account Information</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'webapp/style.css' %}">
+    <link rel="stylesheet" href="{% static 'webapp/account_style.css' %}">
 
+    <!-- This is the font import -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <!-- This is the kit for importing icons -->
+    <script src="https://kit.fontawesome.com/ad9fa19830.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <nav>
-    <ul>
-        <li><a href="{% url 'index' %}">HOME</a></li>
-        <li><a href="{% url 'st_george' %}">ST. GEORGE HOME</a></li>
-        <li><a href="{% url 'about' %}">ABOUT</a></li>
-        <li><a href="{% url 'faq' %}">FAQ</a></li>
-        <li><a href="{% url 'services' %}">SERVICES</a></li>
-        <li><a href="{% url 'memberships' %}">MEMBERSHIPS</a></li>
-        <li><a href="{% url 'contact_us' %}">CONTACT US</a></li>
-        <li><a href="{% url 'login' %}">LOGIN</a></li>
-    </ul>
+        <ul>
+            <li><a href="{% url 'index' %}">HOME</a></li>
+            <li><a href="{% url 'st_george' %}">ST. GEORGE HOME</a></li>
+            <li><a href="{% url 'about' %}">ABOUT</a></li>
+            <li><a href="{% url 'faq' %}">FAQ</a></li>
+            <li><a href="{% url 'services' %}">SERVICES</a></li>
+            <li><a href="{% url 'memberships' %}">MEMBERSHIPS</a></li>
+            <li><a href="{% url 'contact_us' %}">CONTACT US</a></li>
+            <li><a href="{% url 'login' %}">LOGIN</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
     </nav>
     
      <div class="container">
-        <h1 class="giant-title">Account Information</h1>
+         <h1>ACCOUNT INFORMATION</h1>
+         <h3>View and Edit your personal info</h3>
          <form method="post">
-        {% csrf_token %}
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" value="{{ account.name }}"><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" value="{{ account.email }}"><br>
-        <label for="purchase_history">Purchase History:</label>
-        <textarea id="purchase_history" name="purchase_history">{{ account.purchase_history }}</textarea><br>
-        <label for="wallet">Wallet:</label>
-        <input type="text" id="wallet" name="wallet" value="{{ account.wallet }}"><br>
-        <button type="submit">Save Changes</button>
-    </form>
+             {% csrf_token %}
+             <div class="account-info">
+                 <label for="name">Name:</label>
+                 <input type="text" id="name" name="name" value="{{ account.name }}" placeholder="Enter your name..."><br>
+                 <label for="email">Email:</label>
+                 <input type="email" id="email" name="email" value="{{ user_email }}"><br>
+             </div>
+             <div class="extra-info">
+                 <label for="purchase_history">Purchase History:</label>
+                 <textarea id="purchase_history" name="purchase_history">{{ account.purchase_history }}</textarea><br>
+                 <label for="wallet">Wallet:</label>
+                 <input type="text" id="wallet" name="wallet" value="{{ account.wallet }}"><br>
+             </div>
+             <button type="submit">SAVE CHANGES</button>
+        </form>
     </div>
 
     <footer>&nbsp;</footer>
