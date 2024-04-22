@@ -108,9 +108,5 @@ button:hover {
     text-decoration: underline;
 }
 
-.login-form input[type="checkbox"] {
-    width: 30%;
-}
-.login-form #togglePassword {
-    background-color: red;
-}
+
+
