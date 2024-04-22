@@ -32,6 +32,14 @@ $(document).ready(function() {
         sendEmail();
     });
 });
+
+$(document).ready(function() {
+    // Add event listener to the password reset form submission event
+    $('#forgot_pw_form').submit(function(event) {
+        event.preventDefault(); // Prevent form submission
+        sendReset(); // Call the sendReset() function to initiate password reset
+    });
+});
 //function for FAQ clickable
 function toggleAnswer(question) {
   var answers = document.querySelectorAll('.answer');
