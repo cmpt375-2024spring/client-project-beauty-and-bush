@@ -105,7 +105,7 @@ function initiatePasswordReset(email) {
 
     // Send email
     Email.send({
-        SecureToken: "3f405439-2429-4ee3-8d35-d1488b532739",
+        SecureToken: "d4c4b93b-2a08-4d3f-8b1d-8dcea8561e09",
         To: email,
         From: "tca0103@westminsteru.edu",
         Subject: "Empire Body Waxing Password Reset",
