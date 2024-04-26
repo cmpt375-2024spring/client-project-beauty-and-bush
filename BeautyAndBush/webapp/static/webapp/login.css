@@ -7,12 +7,11 @@ h1 {
     text-align: center;
     font-family: "Archivo Black", sans-serif;
     letter-spacing: 2px;
-    margin-top: 2em;
-    font-size: 45px;
+    margin-top: 1.5em;
 }
 
 .login-body {
-    margin: 12vh auto; /* Adjust as needed */
+    margin: 10vh auto; /* Adjust as needed */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -33,6 +32,7 @@ h1 {
 }
 
 .username,
+.email,
 .password {
     margin: 1em auto;
     border: none;
@@ -74,7 +74,7 @@ button:hover {
 }
 
 .login-form button {
-    width: 14%;
+    width: 18%;
     margin-top: 3em;
 }
 
@@ -83,7 +83,7 @@ button:hover {
 }
 
 .signup-link button{
-    width: 20%;
+    width: 14%;
 }
 
 .signup-link a {
@@ -109,4 +109,119 @@ button:hover {
 }
 
 
+/* Responsive */
+@media only screen and (max-width: 1240px) {
+    .login-form input {
+        width: 65%;
+    }
+}
 
+@media only screen and (max-width: 1040px) {
+    .login-form input {
+        width: 55%;
+    }
+
+    .login-form button {
+        width: 22%;
+    }
+
+    .signup-link button{
+        width: 18%;
+    }
+}
+
+@media only screen and (max-width: 854px) {
+     .login-form input{
+        font-size: 16px;
+    }
+
+    .login-body {
+        font-size: 24px;
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+     .login-form input{
+        font-size: 16px;
+    }
+
+    .login-body {
+        font-size: 24px;
+        width: 85%;
+    }
+    .login-form button {
+        width: 26%;
+    }
+
+    .signup-link button{
+        width: 22%;
+    }
+}
+
+@media only screen and (max-width: 626px) {
+     .login-form input{
+        font-size: 15px;
+        width: 50%;
+    }
+
+    .login-body {
+        font-size: 22px;
+        width: 85%;
+    }
+    .login-form button {
+        width: 36%;
+    }
+
+    .signup-link button{
+        width: 32%;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    .login-form input{
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .login-form input{
+        font-size: 15px;
+        width: 90%;
+    }
+
+    .login-body {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 46px;
+    }
+}
+
+@media only screen and (max-width: 435px){
+
+    .login-body {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    .login-form p a {
+        font-size: 11px;
+    }
+
+    .login-form button {
+        width: 40%;
+    }
+
+    .signup-link button{
+        width: 36%;
+    }
+}

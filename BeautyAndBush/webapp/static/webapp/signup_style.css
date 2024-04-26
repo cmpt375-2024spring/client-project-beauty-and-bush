@@ -13,10 +13,36 @@ h1 {
 }
 
 .signup-link {
-    margin-top: 3em;
+    margin-top: 0;
     width: 80%;
 }
 
 .signup-link button {
-    width: 50%;
+    width: 20%!important;
+    margin: auto;
+}
+
+.login-form .email input{
+    width: 80%;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 1040px) {
+    .signup-link button {
+        width: 25%!important;
+    }
+
+    .login-form .password2 input{
+        width: 45%;
+    }
+
+    .login-form .email input{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .signup-link button {
+        width: 30%!important;
+    }
 }

@@ -70,7 +70,7 @@ h2 {
     text-align: center;
     display:flex;
     justify-content: flex-start; /*Align to left*/
-    padding-left: 100px;
+    padding-left: 90px;
    /* padding-right: 800px;*/
     color: #666;
     font-size: 32px;
@@ -103,7 +103,7 @@ h2 {
     font-size: 64px;
     color: #333;
     margin-bottom: 10px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 .left h4 {
     font-family: "Archivo", sans-serif;
@@ -129,7 +129,7 @@ h2 {
     font-size: 64px;
     color: #333;
     margin-bottom: 10px;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 
 .right p4 {
@@ -181,7 +181,7 @@ h2 {
 }
 .right p4 {
     justify-content: right;
-    padding-right: 285px;
+    padding-right: 290px;
     font-weight: bold;
     font-family: "Roboto Flex", sans-serif;
     display:flex;
@@ -289,6 +289,7 @@ h2 {
     font-size: 36px;
     margin-bottom: 10px;
 }
+
 .book-now button {
     display:flex;
     justify-content: flex-start;
@@ -300,24 +301,63 @@ h2 {
     cursor: pointer;
     border-radius: 10px;
 }
-.book-now2 button {
-    display:flex;
-    justify-content: flex-start;
-    margin-left: 1000px;
-    margin-top: 30px;
+.book-now2 button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.book-now3 button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.book-now4 button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.book-now3 button {
+    margin-bottom: 30px;
     background-color: #026451;
     border: none;
+    margin-left: 150px;
+    padding: 15px 70px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.book-now4 button {
+    margin-bottom: 30px;
+    background-color: #026451;
+    border: none;
+    margin-top: 50px;
+    margin-left: 350px;
+    padding: 15px 70px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.book-now2 button {
+    margin-bottom: 30px;
+    background-color: #026451;
+    border: none;
+    margin-left: 280px;
+    padding: 15px 70px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
 }
 
 .book-now button a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 25px;
-}
-.book-now2 button a {
     text-decoration: none;
     color: #fff;
     font-size: 25px;
@@ -364,3 +404,4 @@ h2 {
     float: left; /* Aligns the image to the right */
     margin-top: -900px;
     margin-left: 50px;
+}
