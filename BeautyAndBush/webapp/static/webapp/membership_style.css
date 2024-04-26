@@ -7,7 +7,7 @@
 }
 
 .membership-container {
-  max-width: 700px; /* Adjust as needed for your design */
+  width: 80%; /* Adjust as needed for your design */
   margin: 40px auto;
   padding: 20px;
   text-align: center;
@@ -57,4 +57,30 @@
   font-weight: 400;
   font-size: 2.2em;
   color: #013C30;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 55px /* Adjust font size for smaller screens */
+    /* Other styles for smaller screens */
+  }
+
+  .header1{
+    font-size: 32px;
+  }
+}
+
+ @media screen and (max-width: 560px) {
+  .header {
+    font-size: 48px; /* Adjust font size for smaller screens */
+    /* Other styles for smaller screens */
+    padding: 20px 0;
+  }
+
+  .header1{
+    font-size: 30px;
+  }
+
+  body {
+    font-size: 15px;
+  }
 }
