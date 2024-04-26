@@ -1,19 +1,15 @@
-
-
 body {
-    font-family: Arial, sans-serif;
     background-color: #ffffff;
-    color: #333;
+    color: #000;
     margin: 0;
-    padding: 20px;
 }
 
-h2 {
-    font-family: "Archivo", sans-serif;
-    font-size: 96px;
-    color: #333;
+.services-body{
+    padding: 20px;
+}
+.services-body h2 {
+    margin-top: 40px;
     text-align: center;
-   /* margin-bottom: 0px;*/
 }
 
 .tagline {
@@ -26,332 +22,53 @@ h2 {
     margin-bottom: 30px;
 }
 
-.left {
+.left,
+.right {
     padding: 20px 0;
-
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
-.right{
-    padding:20px 0;
-}
-.left p {
-    font-family: "Roboto Flex", sans-serif;
-    text-align: left;
-    display:flex;
-    justify-content: flex-start; /*Align to left*/
-    padding-left: 185px;
-   /* padding-right: 800px;*/
-    color: #666;
-    font-size: 32px;
-}
-.left p1 {
-    font-family: "Roboto Flex", sans-serif;
-    text-align: left;
-    display:flex;
-    justify-content: flex-start; /*Align to left*/
-    padding-left: 50px;
-   /* padding-right: 800px;*/
-    color: #666;
-    font-size: 32px;
-    margin-bottom: 40px;
-}
-.left p4 {
-    font-family: "Roboto Flex", sans-serif;
-    text-align: left;
-    display:flex;
-    justify-content: flex-start; /*Align to left*/
-    padding-left: 100px;
-   /* padding-right: 800px;*/
-    color: #666;
-    font-size: 32px;
-    margin-bottom: 40px;
-}
-.left p5 {
-    font-family: "Roboto Flex", sans-serif;
-    text-align: center;
-    display:flex;
-    justify-content: flex-start; /*Align to left*/
-    padding-left: 90px;
-   /* padding-right: 800px;*/
-    color: #666;
-    font-size: 32px;
-    margin-bottom: 40px;
-    width: 30%;
-}
-.left p2 {
-    font-weight: bold;
-    font-family: "Roboto Flex", sans-serif;
-    text-align: center;
-    display:flex;
-    justify-content: flex-start; /*Align to right*/
-    padding-left: 180px;
-    color: #026451;
-    font-size: 32px;
-}
-
-.left p3 {
-    font-weight: bold;
-    font-family: "Roboto Flex", sans-serif;
-    text-align: center;
-    display:flex;
-    justify-content: flex-start; /*Align to right*/
-    padding-left: 250px;
-    color: #026451;
-    font-size: 32px;
-}
-.left h3 {
-    font-family: "Archivo", sans-serif;
-    font-size: 64px;
-    color: #333;
-    margin-bottom: 10px;
-    padding-left: 50px;
-}
-.left h4 {
-    font-family: "Archivo", sans-serif;
-    font-size: 64px;
-    color: #333;
-    margin-bottom: 10px;
-    padding-left: 100px;
-    width: 30%;
-}
-.right h5 {
-    text-align: right;
-    font-family: "Archivo", sans-serif;
-    font-size: 64px;
-    color: #333;
-    margin-bottom: 10px;
-    padding-left: 500px;
+.left-text,
+.right-text {
     width: 50%;
+    text-align: center;
 }
 
-.right h3 {
-    text-align: right;
-    font-family: "Archivo", sans-serif;
-    font-size: 64px;
-    color: #333;
-    margin-bottom: 10px;
-    padding-right: 50px;
-}
-
-.right p4 {
-    font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    justify-content: right;/* Align to left*/
-    padding-right: 90px;
-    color: #666;
-    font-size: 32px;
-    margin-bottom: 40px;
-}
-
-
+.left p,
 .right p {
     font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    justify-content: right; /*Align to right*/
-    padding-right: 235px;
-    color: #666;
-    font-size: 32px;
-    margin-bottom: 40px;
-}
-.right p1 {
-    font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    justify-content: right; /*Align to right*/
-    padding-right: 90px;
-    color: #666;
-    font-size: 32px;
-    margin-bottom: 40px;
-}
-.right p2 {
-    font-weight: bold;
-    font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    justify-content: right; /*Align to right*/
-    padding-right: 230px;
-    color: #026451;
-    font-size: 32px;
-}
-.right p3 {
-    justify-content: right;
-    padding-right: 325px;
-    font-weight: bold;
-    font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    color: #026451;
-    font-size: 32px;
-}
-.right p4 {
-    justify-content: right;
-    padding-right: 290px;
-    font-weight: bold;
-    font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    color: #026451;
-    font-size: 32px;
-}
-.right p5 {
-    font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    justify-content: right; /*Align to right*/
-    padding-right: 235px;
-    color: #666;
-    font-size: 32px;
-    margin-bottom: 40px;
-    margin-top: -45px;
-}
-.right p6 {
-    font-weight: bold;
-    font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    justify-content: right;/* Align to left*/
-    padding-right: 380px;
-    padding-top: 30px;
-    color: #000000;
-    font-size: 32px;
-    margin-bottom: 40px;
-}
-.right p7 {
-    justify-content: right;
-    padding-right: 350px;
-    font-weight: bold;
-    font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    color: #026451;
-    font-size: 32px;
-}
-.right p8 {
-    font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    justify-content: right; /*Align to right*/
-    padding-right: 250px;
-    color: #666;
-    font-size: 32px;
-    margin-bottom: 40px;
-
-}
-.right p9 {
-    justify-content: right;
-    padding-right: 380px;
-    font-weight: bold;
-    font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    color: #026451;
-    font-size: 32px;
+    text-align: center;
+    color: #000;
+    font-size: 28px;
+    letter-spacing: 2px;
 }
 
-.right p10 {
+.left p.green-title,
+.right p.green-title {
+    font-weight: 600;
     font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    justify-content: right; /*Align to right*/
-    padding-right: 330px;
-    color: #666;
-    font-size: 32px;
-    margin-bottom: 40px;
-
-}
-.right p11 {
-    font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    justify-content: right; /*Align to right*/
-    padding-right: 300px;
-    color: #666;
-    font-size: 32px;
-    margin-bottom: 40px;
-   /* margin-top: -40px;*/
-}
-.right p12 {
-    justify-content: right;
-    padding-right: 310px;
-    font-weight: bold;
-    font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    color: #026451;
-    font-size: 32px;
-}
-.right p13 {
-    justify-content: right;
-    padding-right: 310px;
-    font-weight: bold;
-    font-family: "Roboto Flex", sans-serif;
-    display:flex;
-    color: #026451;
-    font-size: 32px;
+    text-align: center;
+    color: #013C30;
+    margin-top: 25px;
+    margin-bottom: 0;
 }
 
+.left p.black-title,
+.right p.black-title {
+    font-weight: 700;
+    color: #000;
+    font-size: 30px;
+}
 
 .book-now {
-    margin-top: 0em;
-}
-.book-now2 {
-    margin-top: 0em;
-}
-
-.book-now h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
+    margin-top: 3em!important;
 }
 
 .book-now button {
-    display:flex;
-    justify-content: flex-start;
-    margin-left: 190px;
-    margin-top: -100px;
+    margin-top: 0;
     background-color: #026451;
     border: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 10px;
-}
-.book-now2 button a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 25px;
-    font-family: "Archivo", sans-serif;
-    font-weight: 600;
-    letter-spacing: 3px;
-}
-.book-now3 button a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 25px;
-    font-family: "Archivo", sans-serif;
-    font-weight: 600;
-    letter-spacing: 3px;
-}
-.book-now4 button a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 25px;
-    font-family: "Archivo", sans-serif;
-    font-weight: 600;
-    letter-spacing: 3px;
-}
-.book-now3 button {
-    margin-bottom: 30px;
-    background-color: #026451;
-    border: none;
-    margin-left: 150px;
-    padding: 15px 70px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 10px;
-}
-.book-now4 button {
-    margin-bottom: 30px;
-    background-color: #026451;
-    border: none;
-    margin-top: 50px;
-    margin-left: 350px;
-    padding: 15px 70px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 10px;
-}
-.book-now2 button {
-    margin-bottom: 30px;
-    background-color: #026451;
-    border: none;
-    margin-left: 280px;
-    padding: 15px 70px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
@@ -366,42 +83,113 @@ h2 {
 .book-now button:hover {
     background-color: #013C30; /* A little darker background on hover */
 }
-.book-now2 button:hover {
-    background-color: #013C30; /* A little darker background on hover */
+
+.leaves2-icon {
+    width: 90%; /* Ensures the image does not exceed the width of its container */
+    height: auto; /* Maintain aspect ratio */
+    float: right;
+    margin-right: 20px;
 }
 
-.parent-container{
-    position: relative;
+.left h3,
+.right h3{
+    font-family: "Archivo", sans-serif;
+    font-size: 54px;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: 3px;
 }
-.leaves2-icon {
-    max-width: 100%; /* Ensures the image does not exceed the width of its container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Use block layout for the image container */
-    float: right; /* Aligns the image to the right */
-    margin-top: -300px;
-    margin-right: 150px;
-}
+
 .leaves3-icon {
-    max-width: 100%; /* Ensures the image does not exceed the width of its container */
+    width: 100%; /* Ensures the image does not exceed the width of its container */
     height: auto; /* Maintain aspect ratio */
-    display: block; /* Use block layout for the image container */
-    float: left; /* Aligns the image to the right */
-    margin-top: -400px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
-.leaves4-icon {
-    max-width: 100%; /* Ensures the image does not exceed the width of its container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Use block layout for the image container */
-    float: right; /* Aligns the image to the right */
-    margin-top: -450px;
-    margin-right: 150px;
+
+@media only screen and (max-width: 854px) {
+    .services-body h2{
+        font-size: 54px;
+    }
+
+    .left-text,
+    .right-text {
+        width: 60%;
+    }
+
+    .left p,
+    .right p {
+        font-size: 26px;
+    }
+
+    .left h3,
+    .right h3{
+        font-size: 48px;
+    }
+
+    .parent-container {
+        width: 40%;
+    }
 }
-.leaves5-icon {
-    max-width: 100%; /* Ensures the image does not exceed the width of its container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Use block layout for the image container */
-    float: left; /* Aligns the image to the right */
-    margin-top: -900px;
-    margin-left: 50px;
+
+@media only screen and (max-width: 624px) {
+    .services-body h2{
+        font-size: 48px;
+    }
+
+    .tagline {
+        font-size:28px;
+    }
+
+    .left h3,
+    .right h3{
+        font-size: 44px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .left,
+    .right {
+        flex-direction: column;
+    }
+
+    .right {
+        flex-direction: column-reverse;
+    }
+
+    .left-text,
+    .right-text {
+        width: 100%;
+    }
+
+    .parent-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .leaves3-icon,
+    .leaves2-icon {
+        margin: 0;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 435px){
+    .services-body h2{
+        font-size: 45px;
+    }
+
+    .tagline {
+        font-size:22px;
+    }
+
+    .left h3,
+    .right h3{
+        font-size: 40px;
+    }
+
+    .left p,
+    .right p {
+        font-size: 22px;
+    }
 }

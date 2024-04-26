@@ -87,6 +87,10 @@
      .container p {
          width: 74%;
      }
+
+     .container h1 {
+         font-size: 52px;
+     }
  }
 
  @media only screen and (max-width: 540px) {

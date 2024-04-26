@@ -75,6 +75,70 @@ form {
 }
 
 /* Responsiveness */
-/*Just need to change the headings*/
-@media only screen and (max-width: 820px) {
+
+@media only screen and (max-width: 1040px){
+    h1{
+        font-size: 54px;
+    }
+
+    nav li {
+       margin-right: 10px; /* Adjust spacing between buttons */
+    }
+
+    nav li a{
+        padding: 10px 15px; /* Adjust padding so that the nav bar fits within the screen*/
+    }
+
+    .book-now {
+        margin-top: 9em;
+    }
+    nav li {
+       display: inline-block;
+       margin-right: 20px; /* Adjust spacing between buttons */
+    }
+}
+
+@media only screen and (max-width: 854px) {
+    h1{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    h1{
+        font-size: 48px;
+    }
+    h3{
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 580px){
+    h1{
+        font-size: 45px;
+    }
+    h3{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    h1{
+        font-size: 42px;
+    }
+    h3{
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    h1{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 21px;
+    }
 }

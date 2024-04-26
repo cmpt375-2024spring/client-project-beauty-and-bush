@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   background: #ffffff; /* Replace with the exact background color if needed */
-  font-size: 16px; /* Base font size */
 }
 
 .faq-container {
@@ -15,9 +14,10 @@
 }
 
 .faq-container h1 {
-  font-size: 3em;
+  font-size: 58px;
   text-align: center;
   margin-bottom: 80px;
+    letter-spacing: 5px;
 }
 
 .faq-item {
@@ -30,7 +30,7 @@ li {
 }
 
 .question, .answer {
-  font-size: 1.5em;
+  font-size: 24px;
   line-height: 1.4;
   font-family: "Roboto Flex", sans-serif;
 }
@@ -45,7 +45,7 @@ li {
   transition: opacity 0.3s ease; /* Smooth transition for opacity */
   opacity: 0; /* Initially hide the answer */
   color: black;
-  font-size: 15px;
+  font-size: 17px;
   letter-spacing: 2px;
   border: 1.5px solid #026451;
   padding: 20px;
@@ -68,104 +68,46 @@ li {
 
 /* Additional styles for responsiveness and aesthetics may be necessary */
 
-
- /* Nav Bar responsiveness */
-@media only screen and (max-width: 1400px){
-    nav li a{
-        padding: 10px 30px; /* Adjust padding so that the nav bar fits within the screen*/
+@media only screen and (max-width: 854px) {
+    .question {
+        font-size: 22px;
+    }
+    .answer {
+        font-size: 16px;
+    }
+    .faq-container h1 {
+        font-size: 54px;
     }
 }
 
-@media only screen and (max-width: 1300px){
-    nav li {
-       margin-right: 15px; /* Adjust spacing between buttons */
+@media only screen and (max-width: 594px) {
+    .question {
+        font-size: 18px;
     }
-
-    nav li a{
-        padding: 10px 25px; /* Adjust padding so that the nav bar fits within the screen*/
-    }
-}
-
-
-@media only screen and (max-width: 1178px){
-    nav li {
-       margin-right: 12px; /* Adjust spacing between buttons */
-    }
-
-    nav li a{
-        padding: 10px 20px; /* Adjust padding so that the nav bar fits within the screen*/
-    }
-}
-
-@media only screen and (max-width: 1040px){
-    nav li {
-       margin-right: 10px; /* Adjust spacing between buttons */
-    }
-
-    nav li a{
-        padding: 10px 15px; /* Adjust padding so that the nav bar fits within the screen*/
-    }
-
-    nav li {
-       display: inline-block;
-       margin-right: 20px; /* Adjust spacing between buttons */
-    }
-}
-
-@media only screen and (max-width: 854px){
-    nav li {
-       margin-right: 6px; /* Adjust spacing between buttons */
-    }
-
-    nav li a{
-        padding: 10px 10px; /* Adjust padding so that the nav bar fits within the screen*/
-    }
-
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 10px 0;
-        text-align: right;
-        position: absolute;
-        top: 50px;
-        right: 0; /* Initially position it at right: 0 */
-        background-color: #fff;
-        padding: 12px;
-        display: none; /* Initially hide the nav list */
-    }
-
-    .nav-list-open {
-        display: block; /* Display the nav list when the class is added */
-        animation: slideFromRight 0.5s forwards; /* Apply animation when nav list is open */
-    }
-
-    nav li {
-        display: block; /* Change the display property to block */
-        margin-bottom: 20px; /* Add margin bottom to separate list items */
-    }
-
-    nav li a {
-        display: block; /* Change the display property to block */
-        color: #013C30;
-        text-decoration: none;
-        font-family: 'League Spartan', serif;
+    .answer {
         font-size: 15px;
-        padding: 5px 10px; /* Adjust padding as needed */
     }
+    .faq-container h1 {
+        font-size: 50px;
+    }
+}
 
-    .menu-toggle {
-        display: flex;
-        text-align: right;
-        padding: 15px 60px 0px;
-        cursor: pointer;
-      }
+@media only screen and (max-width: 480px) {
+    .question {
+        font-size: 17px;
+    }
+    .answer {
+        font-size: 14px;
+    }
+    .faq-container h1 {
+        font-size: 45px;
+        margin-bottom: 60px;
+    }
+}
 
-    @keyframes slideFromRight {
-        from {
-            transform: translateX(100%); /* Start position */
-        }
-        to {
-            transform: translateX(0); /* End position */
-        }
+@media only screen and (max-width: 432px) {
+    .faq-container h1 {
+        font-size: 40px;
+        margin-bottom: 40px;
     }
 }
