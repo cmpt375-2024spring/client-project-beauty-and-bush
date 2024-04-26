@@ -109,4 +109,119 @@ button:hover {
 }
 
 
+/* Responsive */
+@media only screen and (max-width: 1240px) {
+    .login-form input {
+        width: 65%;
+    }
+}
 
+@media only screen and (max-width: 1040px) {
+    .login-form input {
+        width: 55%;
+    }
+
+    .login-form button {
+        width: 22%;
+    }
+
+    .signup-link button{
+        width: 18%;
+    }
+}
+
+@media only screen and (max-width: 854px) {
+     .login-form input{
+        font-size: 16px;
+    }
+
+    .login-body {
+        font-size: 24px;
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+     .login-form input{
+        font-size: 16px;
+    }
+
+    .login-body {
+        font-size: 24px;
+        width: 85%;
+    }
+    .login-form button {
+        width: 26%;
+    }
+
+    .signup-link button{
+        width: 22%;
+    }
+}
+
+@media only screen and (max-width: 626px) {
+     .login-form input{
+        font-size: 15px;
+        width: 50%;
+    }
+
+    .login-body {
+        font-size: 22px;
+        width: 85%;
+    }
+    .login-form button {
+        width: 36%;
+    }
+
+    .signup-link button{
+        width: 32%;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    .login-form input{
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .login-form input{
+        font-size: 15px;
+        width: 90%;
+    }
+
+    .login-body {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 46px;
+    }
+}
+
+@media only screen and (max-width: 435px){
+
+    .login-body {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    .login-form p a {
+        font-size: 11px;
+    }
+
+    .login-form button {
+        width: 40%;
+    }
+
+    .signup-link button{
+        width: 36%;
+    }
+}
