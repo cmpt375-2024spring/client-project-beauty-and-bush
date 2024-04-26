@@ -25,3 +25,24 @@ h1 {
 .login-form .email input{
     width: 80%;
 }
+
+/* Responsiveness */
+@media only screen and (max-width: 1040px) {
+    .signup-link button {
+        width: 25%!important;
+    }
+
+    .login-form .password2 input{
+        width: 45%;
+    }
+
+    .login-form .email input{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .signup-link button {
+        width: 30%!important;
+    }
+}

@@ -73,3 +73,8 @@ button:hover {
 form {
     width: 100%;
 }
+
+/* Responsiveness */
+/*Just need to change the headings*/
+@media only screen and (max-width: 820px) {
+}
