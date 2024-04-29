@@ -62,9 +62,10 @@
   color: #013C30;
 }
 
-li, p1, .notbullet li{
+li, .membership-container p, .notbullet li{
     font-size: 18px;
 }
+
 @media screen and (max-width: 768px) {
   .header {
     font-size: 55px /* Adjust font size for smaller screens */
@@ -91,9 +92,9 @@ li, p1, .notbullet li{
     font-size: 15px;
   }
 
-     li, p1, .notbullet li{
-        font-size: 16px;
-    }
+ li, .membership-container p, .notbullet li{
+    font-size: 16px;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -113,7 +114,7 @@ li, p1, .notbullet li{
         font-size: 35px;
     }
 
-     li, p1, .notbullet li{
+     li, .membership-container p, .notbullet li{
         font-size: 15px;
     }
  }
