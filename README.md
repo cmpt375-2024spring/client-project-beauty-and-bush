@@ -1,3 +1,7 @@
+<a href=https://youtu.be/LJ8HjUoYgSY>
+  <img src=http://markdown-videos-api.jorgenkh.no/youtube/LJ8HjUoYgSY/>
+</a>
+
 # Web Apps client project
 ## Spring 2024
 
@@ -12,10 +16,7 @@ This web application was build for the CMPT 375 (Web Applications) class of spri
 - Will (Front-End Developer)
 
 ### Designers
-- Name1 (role)
-- Name2 (role)
-- Name3 (role)
-
-(Fill in the names and roles of developers and designers above)
-
+- Rae Falatea (Front-End Designer, UX Specialist, Design Lead)
+- Mikey O'Hearn	(Creative Director, Client Liaison)
+- Jack Fairbanks (Creative Director, Graphic Design Lead)
 
